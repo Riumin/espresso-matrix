@@ -23,12 +23,15 @@ comments: true
 
 ![]({{site.baseurl}}/features/shutdown.png)
 
+Beside, **The National Aeronautics and Space Administration** is affected as well.
+
 ## How will the emergency fund be used?
 
 ![]({{site.baseurl}}/features/fund.png)
 
-Emergency fund: 8 billion
-Fund for a wall: 5.7 billion
+Emergency fund: 8 billion <br />
+Fund for a wall: 5.7 billion <br /><br />
+The fund is for some especially emergent situation, such as nuclear operation.
 
 # What happend after the shutdown?
 
@@ -36,3 +39,9 @@ Fund for a wall: 5.7 billion
 
 ![]({{site.baseurl}}/features/employees.png)
 
+## Check of the airport: EFFICIENCY & SECURITY
+
+- **51,000** employees of Transportation Security Officers worked for no paid
+- Waiting time at the main security checkpoint exceeded **an hour**
+- A few security lanes **closed**
+- **30 ~ 45** minutes spent at the checkpoints for domestic travelers
