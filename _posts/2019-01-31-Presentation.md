@@ -29,8 +29,8 @@ Beside, **The National Aeronautics and Space Administration** is affected as wel
 
 ![]({{site.baseurl}}/features/fund.png)
 
-Emergency fund: 8 billion <br />
-Fund for a wall: 5.7 billion <br /><br />
+**Emergency fund:** 8 billion <br />
+**Fund for a wall:** 5.7 billion <br /><br />
 The fund is for some especially emergent situation, such as nuclear operation.
 
 # What happend after the shutdown?
