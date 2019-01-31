@@ -39,6 +39,12 @@ The fund is for some especially emergent situation, such as nuclear operation.
 
 ![]({{site.baseurl}}/features/employees.png)
 
+**Employees in total:** 2,000,000<br />
+**Back home:** 380,000<br />
+**Work without any paid:** 420,000<br />
+**The rest normal employees:** 1,200,000<br/><br />
+Those employees affected may have something to do with the departments shut down or partly shut down.
+
 ## Check of the airport: EFFICIENCY & SECURITY
 
 - **51,000** employees of Transportation Security Officers worked for no paid
