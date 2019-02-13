@@ -37,4 +37,4 @@ int main() {
 ![Input]({{site.baseurl}}/features/Input.png)
 
 # Output
-![Output] ({{site.baseurl}}/features/Output.png)
+![Output]({{site.baseurl}}/features/Output.)
