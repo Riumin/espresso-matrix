@@ -34,7 +34,7 @@ int main() {
 **OS:** macOS Mojace ~ version 10.14.2(18C54)
 
 # Input
-![Input]({{site.baseurl}}/features/Input.png)
+![]({{site.baseurl}}/features/Input.png)
 
 # Output
-![Output]({{site.baseurl}}/features/Output.)
+![]({{site.baseurl}}/features/Output.)
