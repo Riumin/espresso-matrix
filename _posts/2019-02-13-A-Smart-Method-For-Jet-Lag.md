@@ -8,7 +8,7 @@ comments: true
 ---
 
 # Introduction 
-Well, everything took place 'cause of the huge amount of travel fund used during my 2-week journey in the US. I have used mom's credit card and there is jet lag if I wanna check my record with the warning message she received. There are in total about 20 messages and it feels like a fool to manually add up the jet lag. Therefore I producted a piece of code for this work.
+Well, everything took place because of the huge amount of travel fund used during my 2-week journey in the US. I have used mom's credit card and there is jet lag if I wanna check my record with the warning message she received. There are in total about 20 messages and it feels like a fool to manually add up the jet lag. Therefore I producted a piece of code for this work.
 
 # Source Code
 ```cpp
