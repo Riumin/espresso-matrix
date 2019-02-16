@@ -3,7 +3,7 @@ layout: post
 title: "A Smart Method for Jet Lag"
 date: 2019-02-13
 excerpt: "It feels smart!"
-tags: [code][C++]
+tags: [code] [C++]
 comments: true
 ---
 
