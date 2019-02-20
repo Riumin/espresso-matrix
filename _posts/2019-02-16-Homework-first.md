@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notation for the 1st homework"
+title: "Notation for the first homework"
 date: 2019-02-16
 excerpt: Simple IO operation towards files
 tags: "code C++ note"
@@ -13,25 +13,36 @@ comments: true
 # Function
 
 ## ```std::fopen``` <sup>```<cstdio>```</sup>
+
 > Reference: [```std::fopen```](https://en.cppreference.com/w/cpp/io/c/fopen)
+
 ### Header
+
 ```cpp
 std::FILE* fopen( const char* filename, const char* mode );
 ```
+
 ### Parameter
+
 - ```const char* filename```
 - ```const char* mode``` (For details, please check the appendix [```mode```](##```mode```))
 
 ### Return
+
 - ```std::FILE*``` (For details, please check the entry [```std::FILE```](##```std::FILE```))
 
 ## ```std::fscanf``` <sup>```<cstdio>```</sup>
+
 > Reference: [```std::fscanf```](https://en.cppreference.com/w/cpp/io/c/fscanf)
+
 ### Header
+
 ```cpp
 int fscanf( std::FILE* stream, const char* format, ... );
 ```
+
 ### Parameter
+
 - ```std::FILE* stream``` (For details, please check the entry [```std::FILE```](##```std::FILE```))
 - ```const char* format``` (For details, please check the appdendix [```std::fscanf```](##```std::fscanf```))
 - ```...``` (received arguments)
@@ -41,23 +52,33 @@ int fscanf( std::FILE* stream, const char* format, ... );
 - ```int``` <br /> **Number of receiving arguments successfully assigned** (which may be ```0``` in case a **matching failure** occurred before the first receiving argument was assigned), or ```EOF``` if **input failure** occurs before the first receiving argument was assigned.
 
 ## ```std::fclose``` <sup>```<cstdio>```</sup>
+
 > Reference: [```std::fclode```](https://en.cppreference.com/w/cpp/io/c/fclose)
+
 ### Header
+
 ```cpp
 int fclose( std::FILE* stream );
 ```
 ### Parameter
+
 - ```std::FILE* stream```
+
 ### Return
+
 - int <br /> ```0```​ on success, ```EOF``` otherwise
+
 ## ```std::gets``` <sup>```<cstdio>```</sup>
 > Reference: [```std::fopen```](https://en.cppreference.com/w/cpp/io/c/gets)
 
 > Warning: You'd better use ```std::fgets``` instead of ```std::gets``` for its unsecurity of buffer overflowing. For details, please check [```std::fgets```](https://en.cppreference.com/w/cpp/io/c/fgets).
+
 ### Header
+
 ```cpp
 char* gets( char* str );
 ```
+
 ### Parameter
 - ```char* str``` <br /> character string to be written
 
@@ -66,7 +87,9 @@ char* gets( char* str );
 If the failure has been caused by **end of file condition**, additionally sets the ```eof``` indicator (see [```std::feof```](https://en.cppreference.com/w/cpp/io/c/feof)) on ```stdin```. <br /> If the failure has been caused by some other error, sets **the error indicator** (see [```std::ferror```](https://en.cppreference.com/w/cpp/io/c/ferror)) on ```stdin```.
 
 ## ```std::fprintf``` <sup>```<cstdio>```</sup>
+
 > Reference: [```std::fprintf```](https://en.cppreference.com/w/cpp/io/c/fprintf)
+
 ### Header
 ```cpp
 int fprintf( std::FILE* stream, const char* format, ... );
@@ -77,7 +100,9 @@ int fprintf( std::FILE* stream, const char* format, ... );
 - ```...``` <br /> Arguments specifying data to print. <br />If any argument after default conversions is not the type expected by the corresponding conversion specifier, or if there are fewer arguments than required by format, the behavior is **undefined**. <br />If there are more arguments than required by format, the extraneous arguments are **evaluated and ignored**.
 
 ## ```std::fseek``` <sup>```<cstdio>```</sup>
+
 > Reference: [```std::fseek```](https://en.cppreference.com/w/cpp/io/c/fseek)
+
 ### Header
 ```cpp
 int fseek( std::FILE* stream, long offset, int origin );
@@ -90,7 +115,9 @@ int fseek( std::FILE* stream, long offset, int origin );
 ```0```​ upon success, **nonzero** value otherwise.
 
 ## ```std::malloc``` <sup>```<cstdlib>```</sup>
+
 > Reference: [```std::malloc```](https://en.cppreference.com/w/cpp/memory/c/malloc)
+
 ### Header
 ```cpp
 void* malloc( std::size_t size );

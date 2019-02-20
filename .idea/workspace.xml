@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d53944-2763-4692-9fb7-7c9113becb84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2019-02-16-Homework-first.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-01-30-Policy.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-01-30-Policy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-02-16-Homework-first.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-02-16-Homework-first.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-02-16-Homework-first.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <first_editor relative-caret-position="285">
+                <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -202,12 +200,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550653565835</updated>
-      <workItem from="1550653566927" duration="2071000" />
+      <workItem from="1550653566927" duration="2401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2071000" />
+    <option name="totallyTimeSpent" value="2401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="38" width="1400" height="979" extended-state="0" />
@@ -370,8 +368,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-02-16-Homework-first.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <first_editor relative-caret-position="285">
+            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           </first_editor>
           <second_editor />
         </state>
