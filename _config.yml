@@ -1,7 +1,7 @@
 # Site
 title:              Evergreen of Hall
-# bio:                'Minimal, one column jekyll theme.'
-description:        "Why not com' 'nd hava cup of espresso?"
+bio:                'Why not com' 'nd hava cup of espresso?'
+#description:        "Why not com' 'nd hava cup of espresso?"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -40,7 +40,7 @@ disqus_shortname:   taylantatli
 email:  tamakazarishino@icloud.com
 #twitter:            username
 #facebook:           username
-github-url:         https://github.com/Riumin
+github-url:         https://github.com/Riumin/espresso
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
