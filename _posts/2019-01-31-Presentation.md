@@ -3,7 +3,7 @@ layout: post
 title: "The government shut down, and then?"
 date: 2019-01-31
 excerpt: "Website for presentation"
-tags: [presentation]
+tags: "presentation"
 comments: true
 ---
 

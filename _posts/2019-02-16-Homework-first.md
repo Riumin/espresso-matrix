@@ -2,7 +2,7 @@
 layout: post
 title: Notation for the 1st homework
 excerpt: Simple IO operation towards files
-tags: [code][C++][notation]
+tags: "code" "C++" "note"
 comments: true
 ---
 
