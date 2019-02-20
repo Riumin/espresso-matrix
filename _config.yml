@@ -1,14 +1,14 @@
 # Site
-title:              "EverGreen of Hall"
-bio:                "Why not take a cup of ESPRESSO?"
-description:        "Here will be what you're just looking for..."
+title:              Evergreen of Hall
+# bio:                'Minimal, one column jekyll theme.'
+description:        "Why not com' 'nd hava cup of espresso?"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:                https://riumin.github.io/Blog.github.io//
+locale:             ch_China
+url:                https://riumin.github.io/espresso
 
 # Jekyll
 permalink:          /:title/
@@ -37,10 +37,10 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:              tamakazarishino@ilcoud.com
+email:  tamakazarishino@icloud.com
 #twitter:            username
 #facebook:           username
-github-url:         Riumin/Blog.github.io
+github-url:         https://github.com/Riumin
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
