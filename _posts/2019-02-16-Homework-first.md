@@ -1,3 +1,11 @@
+---
+layout: post
+title: Notation for the 1st homework
+excerpt: Simple IO operation towards files
+tags: [code][C++][notation]
+comments: true
+---
+
 > Original guidance: [简单文件IO操作](https://github.com/guyaqi/backups/blob/master/notes/cpp1-1.md) <br />
 > Additional reference: [cppreference](https://en.cppreference.com/w/)
 
