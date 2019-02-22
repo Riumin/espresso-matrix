@@ -1,62 +1,97 @@
 ---
-layout: home
+layout: compress
 title: Home
-comments: false
 ---
-<div class="home">
-    <div class="post-list">
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    {% include head.html %}
+</head>
+<body>
+{% include nav.html %}
+<!-- Header -->
+<header class="header flex" role="banner">
+    <div class="container animated fadeIn">
+        <div class="row">
+            <a href="{{ site.url }}">
+                <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
+            </a>
+            <h3 class="title">
+                <a class="zoombtn" href="{{ site.url }}">
+                    <p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
+                </a>
+            </h3>
+            <hr class="hr-line">
+            <h3 class="title">
+                <a href="{{ site.url }}">
+                    <p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
+                </a>
+            </h3>
 
-        {% for post in site.posts limit:5%}
+            <div class="home">
+                <div class="post-list">
 
-        <article class="post_card post">
-            <header class="post_header">
-                <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
-                <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
-            </header>
-            <div class="post_excerpt">
-                <p>
-                    {% if post.description %}
-                    {{ post.description}}
-                    {% else %}
-                    {{ post.excerpt }}
-                    {% endif %}
-                    <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> »  </a>
-                </p>
-            </div>
-            <footer class="post_meta">
+                    {% for post in site.posts limit:5%}
+
+                    <article class="post_card post">
+                        <header class="post_header">
+                            <h2 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
+                            <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
+                        </header>
+                        <div class="post_excerpt">
+                            <p>
+                                {% if post.description %}
+                                {{ post.description}}
+                                {% else %}
+                                {{ post.excerpt }}
+                                {% endif %}
+                                <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> »  </a>
+                            </p>
+                        </div>
+                        <footer class="post_meta">
 
 
-                {% if post.location %}
-                <span class="author-location">
+                            {% if post.location %}
+                            <span class="author-location">
           <div data-icon="ei-location"></div>
           <a href=https://www.google.com/maps/place/{{post.location}}">{{ post.location }}</a>
         </span>
-                {% endif %}
-                <!--
-                {% for category in post.categories %}
-                <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
-                  <data data-icon="ei-archive"></data>
-                  {{category}}</a>
-                {% endfor %}
-                -->
+                            {% endif %}
+                            <!--
+                            {% for category in post.categories %}
+                            <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
+                              <data data-icon="ei-archive"></data>
+                              {{category}}</a>
+                            {% endfor %}
+                            -->
 
-                <!--
-                {% if post.author %}
-                <span class="author_meta">
-                  <img src="{{site.baseurl}}/assets/img/{{post.author}}.jpg"></img>
-                  <span>David Lin</span>
-                </span>
-                {% endif %}
-                -->
+                            <!--
+                            {% if post.author %}
+                            <span class="author_meta">
+                              <img src="{{site.baseurl}}/assets/img/{{post.author}}.jpg"></img>
+                              <span>David Lin</span>
+                            </span>
+                            {% endif %}
+                            -->
 
-                <!--p class="readmore">
-                  <a href=""><data data-icon="ei-arrow-right"></data>Read this article  </a>
-                </p-->
-            </footer>
-            <hr/>
-        </article>
-        {% endfor %}
+                            <!--p class="readmore">
+                              <a href=""><data data-icon="ei-arrow-right"></data>Read this article  </a>
+                            </p-->
+                        </footer>
+                        <hr/>
+                    </article>
+                    {% endfor %}
 
-        <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Archive  </a></div>
+                    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Archive  </a></div>
+                </div>
+            </div>
+        </div>
+
     </div>
-</div>
+</header>
+{% include scripts.html %}
+</body>
+</html>
