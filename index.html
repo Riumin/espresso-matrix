@@ -34,26 +34,24 @@ title: Home
 
             {% include social-links.html %}
 
-
-
         </div>
 
-    </div>
+        <div class="post-list">
+            {% for post in site.posts %}
+            <hr class="hr-line">
+            {% if post.project == null %}
+            <ul>
+                <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                    <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                    <p>{{ post.excerpt }}</p>
 
-    <div class="post-list">
-        {% for post in site.posts %}
-        <hr class="hr-line">
-        {% if post.project == null %}
-        <ul>
-            <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                <p>{{ post.excerpt }}</p>
+                </li>
+            </ul>
+            {% endif %}
 
-            </li>
-        </ul>
-        {% endif %}
+            {% endfor %}
+        </div>
 
-        {% endfor %}
     </div>
 
 </header>
