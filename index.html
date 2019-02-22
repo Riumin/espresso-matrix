@@ -22,7 +22,7 @@ title: Home
             </a>
             <h3 class="title">
                 <a class="zoombtn" href="{{ site.url }}">
-                    <p style="font-size:1.2rem;font-weight:300">{{ site.title }}</p>
+                    <h1>{{ site.title }}</h1>
                 </a>
             </h3>
             <hr class="hr-line">
@@ -33,29 +33,10 @@ title: Home
             </h3>
 
             {% include social-links.html %}
+
+            <hr class="hr-line">
+
         </div>
-
-
-
-
-                    <div class="post-list">
-                        {% for post in site.posts %}
-                        {% if post.project == null %}
-                        <p>
-                        <ul>
-                            <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                                <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                                <p>{{ post.excerpt }}</p>
-
-                            </li>
-                        </ul>
-                        </p>
-                        {% endif %}
-                        {% endfor %}
-                    </div>
-
-
-
 
     </div>
 
@@ -64,4 +45,25 @@ title: Home
 </header>
 {% include scripts.html %}
 </body>
+
+<body>
+<div class="post-list">
+    {% for post in site.posts %}
+    {% if post.project == null %}
+        <ul>
+            <li class="wow fadeInLeft" data-wow-duration="1.5s">
+                <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+    <p>{{ post.excerpt }}</p>
+
+    </li>
+    </ul>
+    {% endif %}
+    <hr class="hr-line">
+    {% endfor %}
+</div>
+</body>
+
+
+
 </html>
+
