@@ -24,7 +24,9 @@ layout: compress
                 <div class="post-list">
                     {% for post in site.posts %} 
                         {% if post.project == null %}
+
                     <ul>
+                        <p><br/></p>
                         <li>
                             <div align="right">
                                 <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
@@ -46,6 +48,7 @@ layout: compress
                                 <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
                             </div>
                         </li>
+                        <p><br/></p>
                     </ul>
                         {% endif %}
                     {% endfor %}
