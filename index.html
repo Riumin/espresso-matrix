@@ -13,7 +13,7 @@ title: Home
 <body>
 {% include nav.html %}
 <!-- Header -->
-<header class="header flex" role="banner">
+< class="header flex" role="banner">
     <div class="container animated fadeIn">
         <div class="row">
             <a href="{{ site.url }}">
@@ -34,14 +34,9 @@ title: Home
             <h3 class="title">
                 <a class="btn zoombtn" href="https://github.com/Riumin/espresso">Repository</a>
                 <a class="btn zoombtn" href="https://blog.csdn.net/LeoShaun">CSDN Blog</a>
-
             </h3>
-
         </div>
-    </div>
 
-    <header class="header flex" role="banner">
-        <div class="container animated fadeIn">
         <div class="post-list">
             <p style="font-size:20px">Moat Recent Posts</p>
             {% for post in site.posts %}
@@ -56,11 +51,23 @@ title: Home
                 </li>
             </ul>
             {% endif %}
-            {% include meta.html %}
+
+            {% for tag in page.tags %}
+            {% unless forloop.last %}
+            <a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}" class="btm zoombtn">{{ tag }}</a>
+            {% endunless %}
             {% endfor %}
+
+            {% endfor %}
+
         </div>
-        </div>
-    </header>
+    </div>
+
+
+
+
+
+
 
 </header>
 {% include scripts.html %}
