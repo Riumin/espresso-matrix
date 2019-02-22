@@ -6,7 +6,7 @@
                 <h4>{{ site.author }}</h4>
                 <p>{{ site.description }}</p>
             </li>
-            
+
             {% if site.email %}<li>
             <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
         </li>{% endif %}
@@ -79,6 +79,8 @@
             {% if site.hackernews %}<li>
             <a href="https://news.ycombinator.com/user?id={{ site.hackernews }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-hacker-news"></i> Hacker News</a>
         </li>{% endif %}
+
+            <li><hr class="hr-line"></li>
 
             <li><a href="{{ site.url }}/">Home</a></li>
             <li><a href="{{ site.url }}/about/">About</a></li>
