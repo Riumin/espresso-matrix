@@ -42,31 +42,34 @@ title: Home
 <p><br /></p>
 
     <div class="container animated fadeIn">
+        <p><br/></p>
             <div align="left">
-                <h2>  Most Recent Post</h2>
+                <h2>Most Recent Post</h2>
             </div>
+        <p><br/></p>
     </div>
 
             {% for post in site.posts %}
             {% if post.project == null %}
 <div class="container animated fadeIn">
             <ul>
-                <li>
-                    <div align="right">
+                <p><br/></p>
+                    <li align="right">
                         <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
-                    </div>
-                </li>
+                    </li>
+
                 <li class="wow fadeInLeft" data-wow-duration="1.5s">
                     <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
                     <p>{{ post.excerpt }}</p>
                 </li>
-                <li>
-                    <div class="entry-meta">
+
+                    <li class="entry-meta">
                         <span class="entry-tags">{% for tag in post.tags %}<a href="{{ site.url }}/tags/#{{ tag }}" title="Pages tagged {{ tag }}" class="tag"><span class="term">{{ tag }}</span></a>{% unless forloop.last %}{% endunless %}{% endfor %}</span>
-                    </div>
-                </li>
+                    </li>
+
             </ul>
 </div>
+<p><br/></p>
             {% endif %}
             {% endfor %}
 
