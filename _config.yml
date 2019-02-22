@@ -1,7 +1,6 @@
 # Site
 title:              Evergreen of Hall
 bio:                "Why not com' 'nd hava cup of espresso?"
-#description:        "Why not com' 'nd hava cup of espresso?"
 reading_time:       true
 words_per_minute:   50
 logo:               'assets/img/logo.png'
@@ -9,6 +8,8 @@ background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             ch_China
 url:                https://riumin.github.io/espresso
+author:             Shaun Leo
+description:        "A mysterious creature mad in knowledge. Always interested in everything but about to start up with anything."
 
 # Jekyll
 permalink:          /:title/
