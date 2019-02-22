@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+            <state relative-caret-position="258">
+              <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -155,8 +155,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="102" />
     <option name="y" value="129" />
-    <option name="width" value="1001" />
-    <option name="height" value="632" />
+    <option name="width" value="1319" />
+    <option name="height" value="700" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -273,7 +273,7 @@
       <workItem from="1550851076714" duration="13000" />
       <workItem from="1550851095589" duration="1000" />
       <workItem from="1550851283056" duration="237000" />
-      <workItem from="1550851563208" duration="3781000" />
+      <workItem from="1550851563208" duration="3907000" />
     </task>
     <task id="LOCAL-00001" summary="test to add archive summery to the home page">
       <created>1550851509789</created>
@@ -286,13 +286,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13945000" />
+    <option name="totallyTimeSpent" value="14071000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="129" width="1001" height="632" extended-state="0" />
+    <frame x="102" y="129" width="1319" height="700" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38164756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22161315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -526,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        <state relative-caret-position="258">
+          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
         </state>
       </provider>
     </entry>
