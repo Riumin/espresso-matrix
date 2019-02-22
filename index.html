@@ -25,7 +25,7 @@ title: Home
                     <h1>{{ site.title }}</h1>
                 </a>
             </h3>
-            <hr class="hr-line">
+
             <h3 class="title">
                 <a href="{{ site.url }}">
                     <p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
@@ -34,33 +34,30 @@ title: Home
 
             {% include social-links.html %}
 
-            <hr class="hr-line">
+
 
         </div>
 
     </div>
 
-
-
-</header>
-{% include scripts.html %}
-</body>
-
-<body>
-<div class="post-list">
-    {% for post in site.posts %}
-    {% if post.project == null %}
+    <div class="post-list">
+        {% for post in site.posts %}
+        <hr class="hr-line">
+        {% if post.project == null %}
         <ul>
             <li class="wow fadeInLeft" data-wow-duration="1.5s">
                 <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-    <p>{{ post.excerpt }}</p>
+                <p>{{ post.excerpt }}</p>
 
-    </li>
-    </ul>
-    {% endif %}
-    <hr class="hr-line">
-    {% endfor %}
-</div>
+            </li>
+        </ul>
+        {% endif %}
+
+        {% endfor %}
+    </div>
+
+</header>
+{% include scripts.html %}
 </body>
 
 
