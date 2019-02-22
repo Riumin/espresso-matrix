@@ -53,6 +53,7 @@ title: Home
                         </div>
                         <footer class="post_meta">
 
+                            {% include social-links.html %}
 
                             {% if post.location %}
                             <span class="author-location">
@@ -85,7 +86,7 @@ title: Home
                     </article>
                     {% endfor %}
 
-                    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Archive  </a></div>
+                    <div class="pagination older-post"><a href="./posts"><data data-icon="ei-arrow-right"></data> Archive  </a></div>
                 </div>
             </div>
         </div>
