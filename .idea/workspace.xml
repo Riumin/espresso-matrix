@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7d53944-2763-4692-9fb7-7c9113becb84" name="Default Changelist" comment="" />
+    <list default="true" id="c7d53944-2763-4692-9fb7-7c9113becb84" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/evil-icons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/evil-icons.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/evil-icons.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/evil-icons.min.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +29,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/img/placeholder-big.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="90" column="104" lean-forward="true" selection-start-line="90" selection-start-column="90" selection-end-line="90" selection-end-column="104" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/assets/evil-icons.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="90" column="110" selection-start-line="90" selection-start-column="110" selection-end-line="90" selection-end-column="110" />
+            <state relative-caret-position="45">
+              <caret line="3" column="85" lean-forward="true" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
+              <folding>
+                <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,16 +80,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -122,6 +123,7 @@
       <find>include</find>
       <find>post</find>
       <find>archive</find>
+      <find>ei-arrow-right</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -236,6 +238,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/js" />
       <recent name="$PROJECT_DIR$/assets/css" />
       <recent name="$PROJECT_DIR$/_posts" />
@@ -269,7 +272,7 @@
       <workItem from="1550851076714" duration="13000" />
       <workItem from="1550851095589" duration="1000" />
       <workItem from="1550851283056" duration="237000" />
-      <workItem from="1550851563208" duration="1764000" />
+      <workItem from="1550851563208" duration="2541000" />
     </task>
     <task id="LOCAL-00001" summary="test to add archive summery to the home page">
       <created>1550851509789</created>
@@ -282,7 +285,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11928000" />
+    <option name="totallyTimeSpent" value="12705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="131" y="69" width="1001" height="632" extended-state="0" />
@@ -474,10 +477,42 @@
     <entry file="file://$PROJECT_DIR$/_includes/social-links.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/wow.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/evil-icons.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="90" column="110" selection-start-line="90" selection-start-column="110" selection-end-line="90" selection-end-column="110" />
+        <state relative-caret-position="221">
+          <caret line="90" column="104" lean-forward="true" selection-start-line="90" selection-start-column="90" selection-end-line="90" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/evil-icons.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="85" lean-forward="true" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
