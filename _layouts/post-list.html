@@ -27,16 +27,14 @@ layout: compress
 
                     <ul>
                         <p><br/></p>
-                        <hr class="hr-line">
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <table>
+                            <table border="0">
                                 <tr>
-                                    <th><a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></th>
-                                    <th><div align="right">
-                                        <time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time>
-                                    </div></th>
+                                    <th align="left"><a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></th>
+                                    <th align="right"><time class="post_date">{{ post.date | date: "%d %B %Y, %A" }}</time></th>
                                 </tr>
                             </table>
+                            <hr class="hr-line">
                             <p>{{ post.excerpt }}</p>
 
                         </li>
