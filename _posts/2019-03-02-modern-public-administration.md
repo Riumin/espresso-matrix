@@ -14,3 +14,5 @@ A --> B
 ```
 
 $$\Omega$$
+
+$$\lim\limits_{x\to x_0}f(x)=f(x_0) | f^+(x_0)=f^-(x_0)=f(x_0)$$
