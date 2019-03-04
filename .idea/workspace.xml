@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d53944-2763-4692-9fb7-7c9113becb84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_includes/meta.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/meta.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-03-02-modern-public-administration.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-02-modern-public-administration.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +74,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-03-02-modern-public-administration.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+              <first_editor relative-caret-position="450">
+                <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -319,7 +318,7 @@
       <workItem from="1550851283056" duration="237000" />
       <workItem from="1550851563208" duration="40470000" />
       <workItem from="1551426077146" duration="995000" />
-      <workItem from="1551465181031" duration="3685000" />
+      <workItem from="1551465181031" duration="4235000" />
     </task>
     <task id="LOCAL-00001" summary="test to add archive summery to the home page">
       <created>1550851509789</created>
@@ -332,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55314000" />
+    <option name="totallyTimeSpent" value="55864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -666,8 +665,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-03-02-modern-public-administration.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+          <first_editor relative-caret-position="450">
+            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           </first_editor>
           <second_editor />
         </state>
