@@ -3,6 +3,7 @@ layout: post
 title: "Class Scope"
 date: 2019-02-24
 tags: "code C++ note C++_Primer_Plus"
+comments: true
 ---
 
 # Another Type of Scope: Class Scope
