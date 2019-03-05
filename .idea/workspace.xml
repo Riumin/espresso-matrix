@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d53944-2763-4692-9fb7-7c9113becb84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2019-03-02-modern-public-administration.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-02-modern-public-administration.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2019-03-04-permutation-combination-recursion.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,18 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about/2019-02-24-class-scope.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-528">
-                <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/disqus_comments.html">
           <provider selected="true" editor-type-id="text-editor" />
@@ -70,12 +59,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2019-03-02-modern-public-administration.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="450">
-                <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <first_editor relative-caret-position="375">
+                <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-03-04-permutation-combination-recursion.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="270">
+                <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -187,12 +188,13 @@
         <option value="$PROJECT_DIR$/_posts/modern-public-administration.md" />
         <option value="$PROJECT_DIR$/_includes/meta.html" />
         <option value="$PROJECT_DIR$/_posts/2019-03-02-modern-public-administration.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-03-04-permutation-combination-recursion.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -318,7 +320,7 @@
       <workItem from="1550851283056" duration="237000" />
       <workItem from="1550851563208" duration="40470000" />
       <workItem from="1551426077146" duration="995000" />
-      <workItem from="1551465181031" duration="4235000" />
+      <workItem from="1551465181031" duration="6615000" />
     </task>
     <task id="LOCAL-00001" summary="test to add archive summery to the home page">
       <created>1550851509789</created>
@@ -331,13 +333,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55864000" />
+    <option name="totallyTimeSpent" value="58244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27825466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37339056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -665,8 +667,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-03-02-modern-public-administration.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="450">
-            <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <first_editor relative-caret-position="375">
+            <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-03-04-permutation-combination-recursion.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           </first_editor>
           <second_editor />
         </state>
