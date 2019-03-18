@@ -47,7 +47,7 @@ comments: true
 |信息量|$I_i=-\log_2p_i(\text{bit}),1\leqslant i\leqslant M$<br/>$I_i=-\ln p_i(\text{nat}),1\leqslant i\leqslant M$<br/>$I_i=-\lg (\text{Hartley}),1\leqslant i\leqslant M$|
 |additive noise|n(t)|
 |数字通信系统```::```频带利用率|($\text{bps}\cdot \text{Hz}^{-1}$)|
-|数字通信系统```::```平均比特错误概率<br/>（误比特率）|$\text{BER}$|
+|数字通信系统```::```平均比特错误概率<br/>（*as well as* 误比特率）|$\text{BER}$|
 |digital source```::```entropy|$H(X)=$
 |AGWN-C```::```channel capacity|$C=B\log_2\Big(1+\frac{S}{N}\Big)$ (bps)|
 |singal```::```voltage<br/>(*as well as* waveform```::```voltage)|$v(t)$|
@@ -59,8 +59,19 @@ comments: true
 |waveform```::```period|$T$
 |waveform```::```baseband|$T^{-1}$
 |waveform```::```direct current component<br/> (*as well as* **dc**)|$v_{dc}=\lim\limits_{T\to \infin}\frac{1}{2T}\int^{T}_{-T}v(t)\text{d}t$
-|
+|waveform```::```voltage signal```::```power|$P_{v(t)}=\frac{\overline{v^2(t)}}{R}\vert R$在纯电阻负载上<br/>
+|waveform```::```current```::```power|$P_{i(t)}=\overline{i^2(t)R}\vert R$在纯电阻负载上
+|时间平均（值）|$\overline{f(t)}=\lim\limits_{T\to\infin}\frac{1}{2T}\int^T_{-T}f(t)\text{d}t$
+|analog signal```::```*average* power|$P=\overline{x^2(t)}=\frac{2E}{\lim\limits_{T\to\infin}T}$
+|analog signal```::```*total* energy|$E=\int_{-\infin}^{+\infin}x^2(t)\text{d}t$
+|模拟信号```::```功率信号|$x(t)\vert E\to\infin$
+|模拟信号```::```能量信号|$x(t)\vert P\to 0$
+|signal```.```root mean square<br/>(*as well as* **rms**)|$v_{rms}=\overline{v^2(t)}$
+|直流信号```::```均方根值|$v_{rms}=A\vert v(t)=A$
+|正弦波```::```均方根值|$v_{rms}=0.707A\vert v(t)=A\cos(2\pi ft+\theta)$
 
+
+||$P=v^2_{rms}\vert R=1\varOmega$
 
 # Morse's telegraph system
 
@@ -103,3 +114,5 @@ $$H(X)=\sum^M_{i=1}I_ip_i=-\sum^M_{i=1}p_i\log_2p_i\text{ (bit)}:X=\{a_i\}^n_{i=
 - entropy rate
 
 $$R=\frac{H(X)}{T}$$
+
+# 归一化功率
