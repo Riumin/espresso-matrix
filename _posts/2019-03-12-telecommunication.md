@@ -42,7 +42,7 @@ comments: true
 |数字信源```::```取值概率|$P(x_n=a_i)=p_i,a_i\isin \{a_i\}^N_{i=1}$|
 |模拟信源```::```随机过程|$x(t)$
 |模拟信源```::```|$f_{x(t)}(x)$, $f_x(x,t)$|
-|确定信号|
+|确定信号<br/|
 |digitial source<br/>(*as well* digital message)|$X$($\text{bit}$)|
 |信息量|$I_i=-\log_2p_i(\text{bit}),1\leqslant i\leqslant M$<br/>$I_i=-\ln p_i(\text{nat}),1\leqslant i\leqslant M$<br/>$I_i=-\lg (\text{Hartley}),1\leqslant i\leqslant M$|
 |additive noise|n(t)|
@@ -69,9 +69,8 @@ comments: true
 |signal```.```root mean square<br/>(*as well as* **rms**)|$v_{rms}=\overline{v^2(t)}$
 |直流信号```::```均方根值|$v_{rms}=A\vert v(t)=A$
 |正弦波```::```均方根值|$v_{rms}=0.707A\vert v(t)=A\cos(2\pi ft+\theta)$
-
-
-||$P=v^2_{rms}\vert R=1\varOmega$
+|均方根值 $\vert$ 归一化功率|$P=v^2_{rms}\vert R=1\varOmega$
+|分贝<br/>(*as well as* decibel)|
 
 # Morse's telegraph system
 
@@ -116,3 +115,19 @@ $$H(X)=\sum^M_{i=1}I_ip_i=-\sum^M_{i=1}p_i\log_2p_i\text{ (bit)}:X=\{a_i\}^n_{i=
 $$R=\frac{H(X)}{T}$$
 
 # 归一化功率
+
+# prime parameters of signal(waveform)
+## framework
+$$\text{T}+\text{dc}\cdot x+\text{P}\cdot x^2+\text{E}\cdot x^3+\text{rms}\cdot x^4+\text{dB}\cdot x^5$$
+## list of parameters
+|MARK|PARAMETERS|
+|:-:|:-:|
+|$\text{T}$|period
+|$\text{dc}$|direct currency component|
+|$\text{P}$|power
+|$\text{E}$|energy
+|$\text{rms}$|root mean square
+|$\text{dB}$|decibal|  
+
+# specturm
+

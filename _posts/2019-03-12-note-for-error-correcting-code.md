@@ -31,6 +31,7 @@ comments: true
 |code symbol|$c_i,i=0, 1,\dots, n-1$|
 |redundant code|1. $\vert\{\overrightarrow{c}\}\vert\geqslant \vert\{\overrightarrow{u}\}\vert$ <br/> 2. $n>k:\vert \{c_j\}\vert= \vert\{u_j\}\vert$|
 |
+|
 
 
 > 数学期望（*as well* 均值，期望）：试验的每次可能**结果** 与 其**概率** 的*积*，是一种最基本的数学特征，反映了*随机变量*平均取值的大小。
@@ -70,3 +71,37 @@ $$$$
 # a model of Uniform Bander Transmit
 
 AGWN-C                                                 
+
+
+# 纠错码 的 基本结构特征
+- 汉明重量
+- 汉明距离
+- 汉明球
+- 最小码距
+
+# 纠错码 编译 基本原理
+|LABEL|MARK|
+|:-:|:-:|
+|Hamming weight|
+|Hamming distance|
+|Hamming sphere|
+|minium code distance|
+|```::```分组码
+|```::```码元（分量）
+|```::```最大似然译码
+|```::```最小化```.```译码```.```差错概率
+|```::```最大化```.```码字信号
+|```::```欧几里得距离
+|```::```编码码率|单位信号 传输的 消息量
+|[MDS code$^{[]}$](####-maxium-distance-separable-code,最大距离可分码)|
+|完备码|
+|```::```[DMC]()
+|差错图案|$e$
+|```::```重复码|
+|
+
+# Appendix
+
+#### $[]$ maxium distance separable code,最大距离可分码
+#### $[]$ discrete memoryless channel,离散无记忆信道,"硬判决"信道
+
