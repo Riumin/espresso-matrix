@@ -219,3 +219,36 @@ $$f(x)=\frac{\text{e}^{-\frac{x^2}{2}}}{\sqrt{2\pi}}$$
 as well as $X\sim N(0,1)$.
 
  
+
+
+$$\begin{bmatrix}
+
+ &  a_{1,6}\frac{U}{80.84\%TS}+(1-\frac{U}{80.84\%TS})a_{1,7} & \cdots & a_{1,9}\frac{U}{80.84\%TS}+(1-\frac{U}{62.35\%\times80.84\%TS})a_{1,10} & a_{1,10}\frac{U}{62.35\%\times80.84\%TS}+(1-\frac{U}{62.35\%\times80.84\%TS})a_{1,11} & \cdots \\ 
+
+&&\frac{U}{TS}a_{1,2} & \cdots & \vdots & \vdots & \cdots & \vdots&\vdots & \cdots\\ 
+
+&&&\ddots &\vdots & \vdots & \cdots & \vdots&\vdots& \cdots\\
+
+&&&& \frac{U}{TS}a_{6,5} & \vdots & \cdots &\vdots&\vdots& \cdots\\ 
+
+&&&&& \frac{U}{80.84\%TS}a_{6,7}  & \cdots&\vdots&\vdots& \cdots \\ 
+
+&&&&&&\ddots &\frac{U}{80.84\%TS}a_{8,9}&\vdots& \cdots\\ 
+
+&&&&&&&& \frac{U}{62.35\%\times80.84\%TS}a_{10,11} & \cdots \\ 
+
+&&&&&&&&& \ddots
+\end{bmatrix}$$
+
+$$\begin{bmatrix}
+a_{0,0}=TS &  \\
+ TS-U & U\\
+(1-\frac{U}{TS})a_{0,1} & a_{1,1}\frac{U}{TS}+(1-\frac{U}{TS})a_{1,2} &\\
+\vdots & \vdots &\\ 
+a_{0,6}=(1-\frac{U}{TS})a_{0,5} & \\
+a_{0,7}=(1-\frac{U}{80.84\%TS})a_{0,6} & \\
+\vdots &\\
+ a_{0,10}=(1-\frac{U}{80.84\%TS})a_{0,9} & \\
+ a_{0,11}=(1-\frac{U}{62.35\%\times80.84\%TS})a_{0,10} & \\
+ \vdots
+\end{bmatrix}$$

@@ -10,7 +10,7 @@ comments: true
 # What makes up your ideal papers of mathematics modeling?
 
 
-```mermaid
+<div class="mermaid" align="center">
 graph TD
 id1(Abstract & Keywords) --> id2(Review of the issue)
 id2 --> id3(Analysis of the issue)
@@ -23,7 +23,7 @@ id43-->id5(test by cases)
 id5-->id6(practical improvement of the model)
 id6-->id42
 id6-->id7(conclusion and product the Papers)
-```
+</div>
 
 # Appendix
 

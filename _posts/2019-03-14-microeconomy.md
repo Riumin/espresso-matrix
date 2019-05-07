@@ -7,4 +7,3 @@ tags: "economy microeconomy note"
 comments: true
 ---
 
-`

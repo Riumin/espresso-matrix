@@ -131,3 +131,149 @@ $$\text{T}+\text{dc}\cdot x+\text{P}\cdot x^2+\text{E}\cdot x^3+\text{rms}\cdot 
 
 # specturm
 
+# Transmit of code
+
+<div class="mermaid" align="center">
+graph LR
+main((Hamming Code))--- id1(product)
+main --- id2(interleaving)
+main --- id3(concatenating)
+id4 --- main
+id5 --- main
+id6 --- main
+id7 --- main
+id8 ---main
+id9 --- main
+subgraph multiple code combination
+id1
+id2
+id3
+end
+subgraph single code recoding
+id4(extending)
+id5(puncturing)
+id5
+end
+</div>
+
+
+# What differential? ~ first-ordered linear differential 
+
+$$\begin{aligned}\lim\limits_{\Delta x\to 0}\Big(F(x+\Delta x)-F(x)\Big)&=\text{d}F(x)=f(x)\cdot \text{d}x \\ \lim\limits_{\Delta x\to 0}\Delta x&=\text{d}x \end{aligned}$$
+
+# 
+
+- inverse hyperbolic sine
+
+$$f(x)=\text{arsh}\ x=\ln\Big(x+\sqrt{x^2+1}\Big)$$
+
+
+- inverse hyperbolic cosine
+
+$$f(x)=\text{arch}\ x=\ln\Big(x+\sqrt{x^2-1}\Big)$$
+
+- inverse hyperbolic tangent
+
+$$f(x)=\text{arth}\ x=\frac{1}{2}\ln\frac{1+x}{1-x}$$
+
+# Mimicry of Exponential Change
+
+$$A_0\cdot e^{rt}=\lim\limits_{k\to\infin}A_0 \Bigg(1+\frac{r}{k}\Bigg)^{kt}$$
+*Especially* when $A_0=r=t=1$, the equiation is equicalent to a major limit 
+
+$$e=\lim\limits_{x\to\infin}\Bigg(1+\frac{1}{x}\Bigg)^{x}y$$
+
+# Case: to find out the half-life
+
+## Analysis
+
+- By experiments, **the rate 
+
+$$\begin{cases}\displaystyle{\frac{\text{d}y}{\text{d}t}}=-ky \\ \\ y=y_0e^{-kt} \end{cases},k>0$$
+
+<br/>
+<table border="0">
+<tr><td class="katex"><i>k</i> > 0</td><td></td><td>decay constant</td></tr>
+<tr><td class="katex"><i>t</i></td><td></td><td>time since time zero</td></tr>
+<tr></tr>
+<tr><td class="katex"><i>y</i></td><td></td><td>radioactive nuclei</td></tr>
+<tr><td class="katex"><i>y</i><sub>0</sub></td><td></td><td>radioactive nuclei at time zero</td></tr>
+</table>
+
+## Model
+
+$$y=\frac{1}{2}y_0$$
+
+# Case: to find out how long something cools down
+
+## Analysis
+
+- By principle, **the rate at which 
+
+$$\begin{cases}\displaystyle{\frac{\text{d}H}{\text{d}t}}=-k(H-H_s)\\ \\ H-H_s=(H_0-H_s)e^{-kt}\end{cases}$$
+<br/>
+<table>
+<tr><td class="katex"><i>H</i></td><td>the temperature of the object</td></tr>
+<tr><td class="katex"><i>t</i></td><td>the time since time zero</td></tr>
+<tr><td class="katex"><i>k</i></td><td>*<i>an undetermined coefficient</i></td></tr>
+<tr><td class="katex"><i>H<sub>s</sub></i></td><td>the surroundings temperature</td></tr>
+<tr><td class="katex"><i>H</i><sub>0</sub></td><td>the initial temperature of the object</td></tr>
+</table>
+
+# Case: to find out the resistance proportional to velocity
+
+> Take a review of **Newton's Second Law of Motion-Force and Acceleration**, <br/> <div align="center">$F=ma$, </div><br/> and **speed** with **frustration coefficient**, <br/> <div align="center">$g=\mu v$,</div> which finds out how much 
+
+# Differential Function & Basic Primary Functions
+
+|DIFFERENTIAL FUNCTIONS|BASIC PRIMARY FUNCTIONS|
+|:-:|:-:|
+|$\displaystyle{\frac{\text{d}y}{\text{d}x}}=0$|$y=A_0$
+|$\displaystyle{\frac{\text{d}y}{\text{d}x}}=a\cdot \displaystyle{\frac{y}{x}}$|$y=A_0x^{a}$
+|$\displaystyle{\frac{\text{d}y}{\text{d}x}}=ky\cdot \ln a$|$y=A_0a^{kx}$
+|*especially*, $\displaystyle{\frac{\text{d}y}{\text{d}x}}=ky$|$y=A_0e^{kx}$
+|$\displaystyle{\frac{\text{d}y}{\text{d}x}}=$
+
+# Basic Primary Functions the Sills of Algebra
+
+<div class="mermaid" align="center">
+graph LR
+id11(constant function) --- main((basic primary function))
+id2(power function) --- main
+id3(exponential function) --- main
+id4(logarithmic function) --- main
+id51
+subgraph trigonometric functions
+id51(sine)
+id52(tangent)
+id53(secant)
+id54(cosine)
+id55(cotangent)
+id56(cosecant)
+end
+main --- id51
+main --- id52
+main --- id53
+main --- id54
+main --- id55
+main --- id56
+subgraph inverse trigonometric functions
+id61(inverse sine)
+id62(inverse tangent)
+id63(inverse secant)
+id64(inverse cosine)
+id65(inverse cotangent)
+id66(inverse cosecant)
+end
+main --- id61
+main --- id62
+main --- id63
+main --- id64
+main --- id65
+main --- id66
+</div>
+
+# exponential differential function
+
+$$\begin{aligned}y&=A e^{kx} \\ y'&=A\cdot k e^{kx}\\ \frac{\text{d}y}{\text{d}x}&=k \cdot Ae^{kt} \\ \frac{\text{d}y}{\text{d}x}&=ky\end{aligned}$$
+
