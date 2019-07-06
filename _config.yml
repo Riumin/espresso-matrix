@@ -3,28 +3,28 @@ source:      .
 destination:      ./_site
 plugins_dir:     ./_plugins
 layouts_dir:     ./_layouts
-timezone:    Asia/Beijing
+timezone:    Asia/Hongkong
 gems:        []
 highlighter:     rouge
 
 # Site settings
-email: tamakazarishino@icloud.com
-author: Shaun Leo
-owner_name: Shaun Leo
+email: master@joytou.net.cn
+author: Joytou Wu
+owner_name: Joytou Wu
 
 #Server
-url: https://github.com/Riumin/Espresso
-github: https://github.com/Riumim/
-baseurl: "https://github.com/Riumin/Espresso"
-dnsPrefetch: "off"
+url: https://joytou.net
+github: https://github.com/joytou/
+baseurl: ""
+dnsPrefetch: "on"
 #dnsPrefetch: "off" if don't want use dns-prefetch
 dns:
-      - ""
-      - ""
+      - "//dns18.hichina.com"
+      - "//dns17.hichina.com"
       
 #Github announce Settings
-github_username: Riumin
-github_repo: riumin.github.io
+github_username: joytou
+github_repo: joytou.github.io
 github_label: announcement
 
 #Page settings
@@ -43,12 +43,12 @@ showdownload: true
 #Pagination setting
 #Testing, not opening
 paginatenum: 2
-
+ 
 exclude: ['README.md','Manifest.md']
 include: ['robots.txt','404.html','.htaccess']
 
 # Description
-description: "Why not come and have a cup of espresso?"
+description: "只为博客而生，也因为博客而存在。Not only for the existence of the blog, but also because of the existence of the blog."
 
 # Keywords
 keywords:
@@ -79,5 +79,5 @@ changyan:
   
 #Formspree
 formspree:
-  email_prefix: "2264686768"
+  email_prefix: "1540294142"
   email_suffix: "qq.com"
