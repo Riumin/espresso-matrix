@@ -9,18 +9,18 @@ highlighter:     rouge
 
 # Site settings
 email: tamakazarishino@icloud.com
-author: Joytou Wu
-owner_name: Joytou Wu
+author: Shaun Leo
+owner_name: Shaun Leo
 
 #Server
-url: https://joytou.net
+url: https://github.com
 github: https://github.com/Riumim/
-baseurl: ""
-dnsPrefetch: "on"
+baseurl: "https://github.com/Riumin/Espresso"
+dnsPrefetch: "off"
 #dnsPrefetch: "off" if don't want use dns-prefetch
 dns:
-      - "//dns18.hichina.com"
-      - "//dns17.hichina.com"
+      - ""
+      - ""
       
 #Github announce Settings
 github_username: Riumin
@@ -48,7 +48,7 @@ exclude: ['README.md','Manifest.md']
 include: ['robots.txt','404.html','.htaccess']
 
 # Description
-description: "只为博客而生，也因为博客而存在。Not only for the existence of the blog, but also because of the existence of the blog."
+description: "Why not come and have a cup of espresso?"
 
 # Keywords
 keywords:
@@ -79,5 +79,5 @@ changyan:
   
 #Formspree
 formspree:
-  email_prefix: "1540294142"
+  email_prefix: "2264686768"
   email_suffix: "qq.com"
