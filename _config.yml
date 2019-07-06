@@ -13,7 +13,7 @@ author: Shaun Leo
 owner_name: Shaun Leo
 
 #Server
-url: https://github.com
+url: 
 github: https://github.com/Riumim/
 baseurl: "https://github.com/Riumin/Espresso"
 dnsPrefetch: "off"
