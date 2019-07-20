@@ -1,3 +1,30 @@
+
+<p><a href="https://jekyll-themes.com">
+<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield"/></a></p>
+<p><a href="http://jekyllthemes.org">Jekyll Themes</a></p>
+<p><a href="http://www.qingbloger.com">氢客</a></p>
+<p></p>
+# Copyright Notice
+JOYTOU(http://joytou.net) is a BootStrap blog template developed by Joytou Wu. You can create your blog by forking or copying this project. JOYTOU works fine with Git. You can use Coding、GitHub、BitBucket、GitLab as your Git repository. JOYTOU is free and you can change it to suit your theme.
+
+# Content
+
+| Directory | 目录 | 目錄 | 
+|:----------:|:----------:|:----------:|
+| [English](#user-content-en) | [简体中文](#user-content-cn)| [繁體中文](#user-content-tw) |
+| [Introduction](#user-content-introduction) | [概述](#user-content-概述) | [概述](#user-content-概述tw) |
+| [Features](#user-content-features) | [功能特色](#user-content-功能特色) | [功能特色](#user-content-功能特色tw)|
+| [Native Server](#user-content-native-server) | [服务版本](#user-content-服务版本) | [服務版本](#user-content-服務版本) |
+| [File directories](Mainfest.md) | [文件目录](Mainfest.md) | [文件目錄](Mainfest.md) |
+| [Configurations](#user-content-configurations) | [配置](#user-content-配置) | [配置](#user-content-配置tw) |
+| [Writting article](#user-content-writting-article) | [写文章](#user-content-写文章) | [寫文章](#user-content-寫文章) |
+| [License](#user-content-license) | [许可协议](#user-content-许可协议) | [許可協議](#user-content-許可協議)|
+
+-------
+
+
+# Framework
+
 ```
 .
 ├── 404.html
@@ -166,29 +193,6 @@
 
 22 directories, 141 files
 ```
-
-<p><a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield"/></a></p>
-<p><a href="http://jekyllthemes.org">Jekyll Themes</a></p>
-<p><a href="http://www.qingbloger.com">氢客</a></p>
-<p></p>
-# JOYTOU
-JOYTOU(http://joytou.net) is a BootStrap blog template developed by Joytou Wu. You can create your blog by forking or copying this project. JOYTOU works fine with Git. You can use Coding、GitHub、BitBucket、GitLab as your Git repository. JOYTOU is free and you can change it to suit your theme.
-
-# Content
-
-| Directory | 目录 | 目錄 | 
-|:----------:|:----------:|:----------:|
-| [English](#user-content-en) | [简体中文](#user-content-cn)| [繁體中文](#user-content-tw) |
-| [Introduction](#user-content-introduction) | [概述](#user-content-概述) | [概述](#user-content-概述tw) |
-| [Features](#user-content-features) | [功能特色](#user-content-功能特色) | [功能特色](#user-content-功能特色tw)|
-| [Native Server](#user-content-native-server) | [服务版本](#user-content-服务版本) | [服務版本](#user-content-服務版本) |
-| [File directories](Mainfest.md) | [文件目录](Mainfest.md) | [文件目錄](Mainfest.md) |
-| [Configurations](#user-content-configurations) | [配置](#user-content-配置) | [配置](#user-content-配置tw) |
-| [Writting article](#user-content-writting-article) | [写文章](#user-content-写文章) | [寫文章](#user-content-寫文章) |
-| [License](#user-content-license) | [许可协议](#user-content-许可协议) | [許可協議](#user-content-許可協議)|
-
--------
 
 # en
 
