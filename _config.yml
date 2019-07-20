@@ -9,14 +9,14 @@ highlighter:     rouge
 
 # Site settings
 email: tamakazarishino@icloud.com
-author: Shaun Leo
-owner_name: Shaun Leo
+author: Ryussyouu
+owner_name: Ryussyouu
 
 #Server
 url: http://riumin.net
 github: https://github.com/riumin
 baseurl: ""
-dnsPrefetch: "on"
+dnsPrefetch: "off"
 #dnsPrefetch: "off" if don't want use dns-prefetch
 dns:
       - "//dns18.hichina.com"
@@ -48,14 +48,13 @@ exclude: ['README.md','Manifest.md']
 include: ['robots.txt','404.html','.htaccess']
 
 # Description
-description: "只为博客而生，也因为博客而存在。Not only for the existence of the blog, but also because of the existence of the blog."
+description: "Why not comend hava cupouph espresso?"
 
 # Keywords
 keywords:
         - "git"
         - "bootstrap"
         - "blog"
-        - "joytou"
         - "markdown"
         - "jekyll"
         - "博客"
