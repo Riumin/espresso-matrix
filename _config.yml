@@ -8,14 +8,14 @@ gems:        []
 highlighter:     rouge
 
 # Site settings
-email: master@joytou.net.cn
-author: Joytou Wu
-owner_name: Joytou Wu
+email: tamakazarishino@icloud.com
+author: Shaun Leo
+owner_name: Shaun Leo
 
 #Server
-url: https://joytou.net
-github: https://github.com/joytou/
-baseurl: ""
+url: 
+github: https://github.com/riumin/
+baseurl: https://riumin.github.io/espresso
 dnsPrefetch: "on"
 #dnsPrefetch: "off" if don't want use dns-prefetch
 dns:
@@ -23,8 +23,8 @@ dns:
       - "//dns17.hichina.com"
       
 #Github announce Settings
-github_username: joytou
-github_repo: joytou.github.io
+github_username: Riumin
+github_repo: riumin.github.io
 github_label: announcement
 
 #Page settings
