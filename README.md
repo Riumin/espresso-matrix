@@ -1,79 +1,34 @@
-Theme original designed by [bit-range](https://github.com/bit-ranger), appreciation.
+##[点我查看中文说明](https://github.com/dubuyuye/blog/blob/gh-pages/README_zh_CN.md)
 
-# Framework
+# Blog Address
 
-The diagram last refreshed on July 21, 2019.
-```
-.
-├── 404.html
-├── LICENSE
-├── README.md
-├── README_zh_CN.md
-├── _config.yml
-├── _includes
-│   ├── footer.html
-│   ├── head.html
-│   └── header.html
-├── _layouts
-│   ├── default.html
-│   ├── page.html
-│   └── post.html
-├── _posts
-├── favicon.ico
-├── feed.xml
-├── index.html
-├── pages
-│   ├── 1archive.html
-│   ├── 2category.html
-│   ├── 3tag.html
-│   ├── 4about.md
-│   └── 5link-external.md
-├── sign.svg
-├── sitemap.xml
-└── static
-    ├── bg.jpg
-    ├── css
-    │   ├── archive.css
-    │   ├── article-list.css
-    │   ├── category.css
-    │   ├── gitment.css
-    │   ├── highlight.css
-    │   ├── post.css
-    │   ├── style.css
-    │   ├── tagCloud.css
-    │   └── tags.css
-    ├── img
-    ├── js
-    │   ├── category.js
-    │   ├── gitment.js
-    │   ├── post.js
-    │   ├── script.js
-    │   ├── tagCloud.js
-    │   ├── tags.js
-    │   └── toc.js
-    └── octicons
-        ├── LICENSE.txt
-        ├── README.md
-        ├── octicons-local.ttf
-        ├── octicons.css
-        ├── octicons.eot
-        ├── octicons.less
-        ├── octicons.svg
-        ├── octicons.ttf
-        ├── octicons.woff
-        └── sprockets-octicons.scss
+<https://bit-ranger.github.io/blog/>
 
-9 directories, 48 files
+
+# Must Modify
+
+## 1.swiftype
+
+This service provides the on-site search function.
+
+Service address： <https://swiftype.com/>.
+
+After the setup is complete， you need to modify the `swiftype.searchId` in `_config.yml`.
+
+In your swiftype engine, go to `Setup and integration` -> `Install Search`, you could find the `swiftype.searchId`.
+
+```html
+<script type="text/javascript">
+...
+...
+  _st('install','swiftype.searchId','2.0.0');
+</script>
 ```
 
-# Post Syntax
-Do ensure each post include the following heading declaration.
-```
----
-layout: post
-title: title
-tags: tag_1 tag_2
-categories: common
----
-```
-Categories contain **common** and custom types, which uniquely occupy a post.
+## 2.gitment
+
+This service provides the comment function.
+
+Service address： <https://github.com/imsun/gitment>.
+
+After the setup is complete， you need to modify the `gitment`  in `_config.yml`.
