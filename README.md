@@ -75,5 +75,8 @@ title: title
 tags: tag_1 tag_2
 categories: common
 ---
+
+* TOC
+{:toc}
 ```
 Categories contain **common** and custom types, which uniquely occupy a post.
