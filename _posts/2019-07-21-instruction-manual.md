@@ -38,7 +38,9 @@ categories: common
 
 以上。
 
-<div align="right"><katex-class>Ryussyouu<katex-class><br/> July 21, 2019<br/>上一次更改时间：July 21, 2019</div>
+<div align="right"><katex-class>Ryussyouu<katex-class>
+<div align="right">July 21, 2019</div>
+<div align="right">上一次更改时间：July 21, 2019</div>
 <br/>
 
 # Q & A
