@@ -10,7 +10,8 @@ categories: common
 
 > 手册共分两部分，第一部分为[前言](#前言)，第二部分为[Q & A](#Q-&-A)。了解学习生活上的问题直接第二部分。<br/>
 > 想要了解这所有着悠久知乎治校历史传统的学校，你可以首先~~科学或不科学地~~打开你的搜索引擎，输入```电子科技大学 公管学院 site:www.zhuhu.com```，然后进行了解。其次，本校也有自己的论坛[清水河畔](http://bbs.uestc.edu.cn/)，欢迎大家访问。但是鉴于公共管理学院自身的边缘处境，**较难找到一个专门面向本院大零学生的介绍**。这也是编写这份使用手册的初衷。<br/>
-> 任何想要对该手册进行补充和修正的同学请使用本站自带的gitment功能进行评论。若你没有[GitHub](https://github.com/)账号或不希望通过这种方式进行交流，可以通过底部的电子邮件等通信方式联系原作者<katex-element align=center>Ryussyouu</katex-element><br/>
+> 任何想要对该手册进行补充和修正的同学请使用本站自带的gitment功能进行评论。若你没有[GitHub](https://github.com/)账号或不希望通过这种方式进行交流，可以通过底部的电子邮件等通信方式联系原作者
+<center><katex-element>Ryussyouu</katex-element></center><br/>
 转载请注明出处。
 
 <img src="{{"/service-manual-of-uestc-and-sofa-v1.0.0.en-graphix-1.svg" | prepend: site.imgrepo }}" alt="FBI&emsp;WARNING" align="center"/>
