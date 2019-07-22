@@ -110,7 +110,7 @@ body {
 }
 
 body,code,pre{
-    font-family:  "times","Menlo", "Monaco", "Consolas", "Courier New", "monospace", "Helvetica", "Tahoma", "Arial",
+    font-family:  "Menlo", "Monaco", "Consolas", "Courier New", "monospace", "Helvetica", "Tahoma", "Arial",
     "WenQuanYi Micro Hei", "文泉驿微米黑", "STXihei", "华文细黑", "Microsoft YaHei", "微软雅黑", "SimSun", "宋体", "Heiti", "黑体", sans-serif;
 }
 
@@ -158,7 +158,7 @@ a:active {text-decoration: none}	/* 选定的链接 */
  * back to top
  */
 .page-scrollTop {
-	position: fixed;
+	
 	right: 10px;
 	bottom: 10px;
 	width: 60px;
