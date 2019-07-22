@@ -69,7 +69,6 @@ The diagram last refreshed on July 21, 2019.
 # Post Syntax
 
 ## Header
-
 Do ensure each post include the following heading declaration.
 ```
 ---
