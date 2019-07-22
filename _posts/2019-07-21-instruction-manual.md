@@ -12,7 +12,7 @@ categories: common
 > 想要了解这所有着悠久知乎治校历史传统的学校，你可以首先~~科学或不科学地~~打开你的搜索引擎，输入```电子科技大学 公管学院 site:www.zhuhu.com```，然后进行了解。其次，本校也有自己的论坛[清水河畔](http://bbs.uestc.edu.cn/)，欢迎大家访问。但是鉴于公共管理学院自身的边缘处境，**较难找到一个专门面向本院大零学生的介绍**。这也是编写这份使用手册的初衷。<br/>
 > 任何想要对该手册进行补充和修正的同学请使用本站自带的gitment功能进行评论。若你没有[GitHub](https://github.com/)账号或不希望通过这种方式进行交流，可以通过底部的电子邮件等通信方式联系原作者<katex-class>Ryussyouu<katex-class>，转载请注明出处。
 
-![FBI&ensp;WARNING]:{{"/service-manual-of-uestc-and-sofa-v1.0.0.en-graphix-1.svg" | prepend: site.imgrepo }}
+![FBI&ensp;WARNING]({{"/service-manual-of-uestc-and-sofa-v1.0.0.en-graphix-1.svg" | prepend: site.imgrepo }})
 
 # 前言
 
@@ -79,7 +79,7 @@ categories: common
 **Q**&emsp;听说电子科大的文科生要学数学？我好怕怕啊怎么办？<br/>
 **A**&emsp;首先，电子科大没有文科生。其次，这是本 院 特 色。从2019届开始咱们社会科学实验班的童鞋们也要和全校其他理工科同学们无差异同步学习数学辣，妈妈再也不用担心你们的学习辣。嗯，这我还能说啥呢，都考这里来了你还不认命，~~你可以退学~~。最后是真心话，如果不是做科研或者计量科学可以不必要非要搞得那么认真，**以得分为主**，具体操作参考衡水/毛坦厂/绵阳中学模式。然鹅如若是天堂有路你不走，地狱无门你闯进来，恭喜你，建议你在这个假期里提前感受一下真正的数学。是的，真正的数学，请把你前12年学的那些东西都揉成废纸丢到垃圾筐里（如果你曾有数学竞赛的经历当我没说）。建议泛读*Thomas' Calculus*（《托马斯微积分》）或*Calculus the Life Saver*（《普林斯顿微积分读本》），然后是*Linear Algebra Done Right*（《线性代数就该这样学》），~~科学或不科学地~~打开[Essense of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs)或[线性代数的本质](https://www.bilibili.com/video/av5987715?from=search&seid=1551910797269837930)系列。有了最基础的知识，你接下来不仅要进一步深入，还要学会像现代人一样学数学。不仅有大量的数学分支（如下图）供你参考，你或许还需要熟练掌握python，matlab这些专门封装好了提供给设计运行模型或算法的人的伪代码工具。勇敢的少年啊快去变强吧，等你成为真正的强者时你也就不再拥有你少年时那头乌黑亮丽的秀发了（奸笑
 
-![mathematical&ensp;schemes]:{{"/service-manual-of-uestc-and-sofa-v1.0.0.en-graphix-2.png" | prepend: site.imgrepo }}
+![mathematical&ensp;schemes]({{"/service-manual-of-uestc-and-sofa-v1.0.0.en-graphix-2.png" | prepend: site.imgrepo }})
 
 **Q**&emsp;开学了有没有考试啊？<br/>
 **A**&emsp;有的，在军训过后会有一次英语考试，难度是不低的。**这次考试不会影响大家之后的成绩**，目的在于了解新生英语水平的分布情况，因材施教。考完以后大家会被分成ABC三个不同层次的班级，三种班的教学重点是有所不同的。所以完全不用担心，把自己的真实水平展现出来即可。~~如果想要成绩好看尽量不要去B班~~。
