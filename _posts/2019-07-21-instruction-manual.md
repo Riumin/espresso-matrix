@@ -39,6 +39,7 @@ categories: common
 以上。
 
 <div align="right"><katex-class>Ryussyouu<katex-class><br/> July 21, 2019<br/>上一次更改时间：July 21, 2019</div>
+<br/>
 
 # Q & A
 
@@ -147,6 +148,7 @@ id8 --是--> idb("公务员")
 id8 --否--> idc("社畜")
 id4 --否--> ide("自由职业者")
 </div>
+<br/>
 
 当然，这只能作为参考。不要人为地在自己想做的事情和自己之间树立隔阂，只要有心都可以栽出盛开的鲜花。
 
