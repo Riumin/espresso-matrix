@@ -16,7 +16,7 @@ categories: common
 
 # 前言
 
-<div align="left">各位即将步入电子科技大学公共管理学院的社会科学实验班萌新们：</div>
+各位即将步入电子科技大学公共管理学院的社会科学实验班萌新们：
 
 很高兴你们即将手捧录取通知书进入这所曾经的“211工程”、“985工程”和现在的双一流高校——正如你们许多人此时憧憬的那样。事实上，你们将进入这所学校为数不多的边缘学院之一——公共管理学院。
 
@@ -38,7 +38,7 @@ categories: common
 
 以上。
 
-<div align="right"><katex-class>Ryussyouu<katex-class></div>
+<div align="right">Ryussyouu</div>
 <div align="right">July 21, 2019</div>
 <div align="right">上一次更改时间：July 21, 2019</div>
 <br/>
