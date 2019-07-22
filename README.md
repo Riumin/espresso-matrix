@@ -80,3 +80,9 @@ categories: common
 {:toc}
 ```
 Categories contain **common** and custom types, which uniquely occupy a post.
+
+## Insert an image
+
+```
+[enlightment]:{{"/img_filename" | prepend: site.imgrepo }}
+```
