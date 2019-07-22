@@ -67,6 +67,9 @@ The diagram last refreshed on July 21, 2019.
 ```
 
 # Post Syntax
+
+## Header
+
 Do ensure each post include the following heading declaration.
 ```
 ---
@@ -75,5 +78,14 @@ title: title
 tags: tag_1 tag_2
 categories: common
 ---
+
+* TOC
+{:toc}
 ```
 Categories contain **common** and custom types, which uniquely occupy a post.
+
+## Insert an image
+
+```
+[enlightment]:{{"/img_filename" | prepend: site.imgrepo }}
+```
