@@ -1,4 +1,4 @@
-v---
+---
 layout: post
 title: 电子科技大学及其公共管理学院使用手册v1.0.1.cn
 tags: 电子科技大学 公共管理学院 UESTC SOfA
