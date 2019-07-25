@@ -3,6 +3,7 @@ Theme original designed by [bit-range](https://github.com/bit-ranger), appreciat
 # Framework
 
 The diagram last refreshed on July 21, 2019.
+
 ```
 .
 ├── 404.html
@@ -69,7 +70,9 @@ The diagram last refreshed on July 21, 2019.
 # Post Syntax
 
 ## Header
+
 Do ensure each post include the following heading declaration.
+
 ```
 ---
 layout: post
@@ -81,10 +84,11 @@ categories: common
 * TOC
 {:toc}
 ```
+
 Categories contain **common** and custom types, which uniquely occupy a post.
 
 ## Insert an image
 
 ```
-[enlightment]:{{"/img_filename" | prepend: site.imgrepo }}
+![enlightment]({{"/img_filename" | prepend: site.imgrepo }})
 ```

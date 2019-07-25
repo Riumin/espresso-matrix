@@ -2,7 +2,7 @@
 layout: post
 title: python worm
 tags: python worm code
-categories: common
+categories: Python
 ---
 
 * TOC
