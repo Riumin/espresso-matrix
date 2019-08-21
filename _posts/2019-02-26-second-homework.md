@@ -2,7 +2,7 @@
 layout: post
 title: A Brief Analysis of the Second Homework
 tags: Windows cmd C++ code homework
-categories: common
+categories: C++
 ---
 
 * TOC
