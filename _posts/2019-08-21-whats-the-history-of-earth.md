@@ -43,7 +43,7 @@ Biology, geology, astronomy, and finally physics, we are trying our best to buil
 
 <h3 align="center" style="font-family: Georgia, times"><b>Video 1</b>&emsp;Earth: Making of a Planet <i>by</i> <a href="https://www.nationalgeographic.com/">National Geographic</a> </h3>
 
-<iframe align="center" width="878" height="493.875" src="https://www.youtube.com/embed/pENq1ml2haA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+<div align="center"><iframe align="center" width="690" height="388.125" src="https://www.youtube.com/embed/pENq1ml2haA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 So long has the saying of [Immanuel Kant](https://en.wikipedia.org/wiki/Immanuel_Kant) echos, the galaxy nonsense and undeniable. Ever since the time when the rivals of [Jean-Jacques Rousseau](https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau) spare no effort to recover the  reconstruction by disproving the source of power's <span title="where does the power lie legal" style="font-weight: bold">legislation</span>, we ourselves have been <span title="to purge or remove something from somewhere" style="font-weight: bold">dispelling</span> one and another coming curiosities, response to whom  beneath somewhere underlying able to save us  back to reality from a fairyland. 
 
@@ -60,7 +60,7 @@ Let's just simply date back to the time when childish and inexperienced ourselve
 > The geology of an area changes through time as rock units are deposited and inserted, and deformational processes change their shapes and locations.[@wikipedia_geology]
 
 <h3 align="center" style="font-family: Georgia, times"><b>Video </b>&emsp;A Brief History of Geologic Time <i>by</i> <a href="https://www.youtube.com/channel/UCzR-rom72PHN9Zg7RML9EbA">PBS Eons</a></h3>
-<iframe align="center" width="878" height="493.875" src="https://www.youtube.com/embed/rWp5ZpJAIAE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+<div align="center"><iframe align="center" width="690" height="388.125" src="https://www.youtube.com/embed/rWp5ZpJAIAE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 If anything to do with the marvelous and previously immortal history of the earth within <span title="as well as geoscience, includes all fields of natural science related to the planet Earth" style="font-weight: bold">earth science</span>, geology shall be at the first place. Ever since the first publishing of the prediction about the variation of the earth layers within fossils and rocks, *De solido intra solidum naturaliter contento*, modern geology's <span title="a piece of fabric or cloth for covering face." style="font-weight: bold">veil</span> recovered as considered. For centuries geologists have been digging out one and another exposed tombs of creatures and earth movement and their biography written within considering existence, taking advantage of the fast developing techniques to capture the streams from a more and more *informationalized* world.
 
@@ -70,12 +70,12 @@ If anything to do with the marvelous and previously immortal history of the eart
 Those ambiguous archaeology finally get to a so-called **geologic time scale**[@geologic_time_scale], which has been adopted into numerous variations, **geologic clock** included(figure ). Just like those excellent scholars who developed their theory upon something ever happend millions, billions and trillions of years ago based on those "archealogical" consequence, but to simply stare at the time scale with abstract description they drawed enable us to imagined a vivid world such a long time ago, especially in an "age" of virtual graphicalization. 
 
 <h3 align="center" style="font-family: Georgia, times"><b>Figure </b>&emsp;This 3D graph is aimed at the graphicalization of the ancient earth, mostly in assistence with understanding the continent-ocean state at that time. Original designed as the consequnce of <a href="http://www.scotese.com/"> PALEOMAP Project</a> </h3>
-<iframe align="center" width="878" height="493.875" src="http://dinosaurpictures.org/ancient-earth#" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+<div align="center"><iframe align="center" width="690" height="388.125" src="http://dinosaurpictures.org/ancient-earth#" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 "What ever happend on the earth?" This question seems to be a hot topic in a society with more and more cheap and popular knowledge. Out of the professional labs and speech academic reporting halls, the history of our planet comes to generates increasing believes, romance and ration, in result of diverse form of media products. It ends up not that necessary to restrict research within ivory tower for us. Yet it ends nothing yet, for the very few people beyond pure psychological loss instead of true curiosity. It is exactly those guys who stood out of the noble in villa who feed their mental pain with the one true god beyond morality that led religion live to theology and till modern science. Exploration still. 
 
 <h3 align="center" style="font-family: Georgia, times"><b>Video </b>&emsp;Birth of the Earth (Naked Science Series) <i>by</i> <a href="https://www.nationalgeographic.com/">National Geographic</a> </h3>
-<iframe width="878" height="493.875" src="https://www.youtube.com/embed/XYHe5wQeA28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+<div align="center"><iframe width="690" height="388.125" src="https://www.youtube.com/embed/XYHe5wQeA28" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 # Above the sky scales the universe
 
