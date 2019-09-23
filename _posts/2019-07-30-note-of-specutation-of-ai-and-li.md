@@ -3,6 +3,58 @@ layout: post
 title: An Introduction to Legal Informatics
 tags: Artificial&nbsp;Intelligence Law 
 categories: Legal&nbsp;Informatics
+reference:
+-       type: article
+        id: CLAUDETTE
+        title: 'CLAUDETTE: an automated detector of potentially unfair clauses in
+            online terms of service'
+        journal: Artificial Intelligence and Law
+        year: '2019'
+        month: Jun
+        day: '01'
+        volume: '27'
+        number: '2'
+        pages: 117--139
+        abstract: Terms of service of on-line platforms too often contain clauses
+            that are potentially unfair to the consumer. We present an experimental
+            study where machine learning is employed to automatically detect such
+            potentially unfair clauses. Results show that the proposed system could
+            provide a valuable tool for lawyers and consumers alike.
+        issn: 1572-8382
+        doi: 10.1007/s10506-019-09243-2
+        url: https://doi.org/10.1007/s10506-019-09243-2
+        author:
+        -   first: Marco
+            last: Lippi
+        -   first: Przemys{\l}aw
+            last: Pa{\l}ka
+        -   first: Giuseppe
+            last: Contissa
+        -   first: Francesca
+            last: Lagioia
+        -   first: Hans-Wolfgang
+            last: Micklitz
+        -   first: Giovanni
+            last: Sartor
+        -   first: Paolo
+            last: Torroni
+-       type: article
+        issn: 00389765
+        url: http://www.jstor.org/stable/1227753
+        journal: Stanford Law Review
+        number: '1'
+        pages: 40--62
+        publisher: Stanford Law Review
+        title: Some Speculation about Artificial Intelligence and Legal Reasoning
+        volume: '23'
+        year: '1970'
+        author:
+        -   first: Bruce
+            middle: G.
+            last: Buchanan
+        -   first: Thomas
+            middle: E.
+            last: Headrick
 ---
 
 * TOC
