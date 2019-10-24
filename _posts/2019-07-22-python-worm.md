@@ -25,7 +25,7 @@ URL管理器->>调度器: 返回一个待爬取的URL
 
 # Citation
 
-> [【原创】记一次微信公众号爬虫的经历](https://blog.csdn.net/wnma3mz/article/details/78570580) <br/>
+> [【原创】记一次微信公众号爬虫的经历](https://blog.csdn.net/wnma3mz/article/details/78570580) \
 > [【原创】Python 爬虫介绍](https://blog.csdn.net/sinat_29957455/article/details/70846427)
 
 # Instance: Python module ```urllib``` for requesting and storing website

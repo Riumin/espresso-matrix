@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Notation for the first homework</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="Notation for the first homework, C++, code,C++,note, Evergreen of Hall" />
+    <meta name="description" content="Notation for the first homework, C++, code,C++,note, " />
+    <meta name="theme-color" content="#2CA6CB"/>
+    <link rel="shortcut icon" type="image/x-icon" media="screen" href="http://localhost:4000/favicon.ico" />
+    <link rel="canonical" href="http://localhost:4000/c++/Homework-first/" />
+    <link rel="alternate" type="application/rss+xml" title="Evergreen of Hall" href="http://localhost:4000/feed.xml"  />
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/octicons/3.5.0/octicons.min.css" >
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/static/css/highlight.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/static/css/gitment.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:4000/static/css/post.css" />
+    
+
+
+
+
+</head>
+
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-tiffany rectangle" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <img src="http://localhost:4000/sign.svg" height="54px" width="40.5px"/>
+                    <a class="navbar-brand" href="http://localhost:4000/">Evergreen of Hall</a>
+                    <p class="navbar-text"></p>
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        
+                        <li>
+                        <a href="http://localhost:4000/" class="word-keep"><span class="octicon octicon-book"></span></span>&nbsp;&nbsp;Blog</a>
+                        </li>
+                        
+                        
+                        <li>
+                            <a href="http://localhost:4000/archive/" class="word-keep"><span class="octicon octicon-repo"></span>&nbsp;&nbsp;Archive</a>
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="http://localhost:4000/category/" class="word-keep"><span class="octicon octicon-list-unordered"></span>&nbsp;&nbsp;Category</a>
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="http://localhost:4000/tags/" class="word-keep"><span class="octicon octicon-tag"></span>&nbsp;&nbsp;Tag</a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li><a href="#stq=" class="search-button"><span class="octicon octicon-search"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+<div class="main">
+    <div class="container">
+        <div class="row">
+    <div class="content col-lg-9">
+        <div class="sheet post">
+          <header>
+            <h2>Notation for the first homework</h2>
+            <p class="post-meta">
+                <span class="octicon octicon-clock"></span> Feb 16, 2019
+            </p>
+            <p class="post-tag">
+                <span><a href="http://localhost:4000/category/#C++"><span class="octicon octicon-list-unordered"></span>&nbsp;C++</a></span>
+                <span>
+                    <a class="word-keep" href="http://localhost:4000/tags/#code"><span class="octicon octicon-tag"></span>&nbsp;code</a>
+                    
+                    <a class="word-keep" href="http://localhost:4000/tags/#C++"><span class="octicon octicon-tag"></span>&nbsp;C++</a>
+                    
+                    <a class="word-keep" href="http://localhost:4000/tags/#note"><span class="octicon octicon-tag"></span>&nbsp;note</a>
+                    
+                </span>
+            </p>
+          </header>
+          <hr class="boundary">
+          <article>
+            <ul id="markdown-toc">
+  <li><a href="#function" id="markdown-toc-function">Function</a>    <ul>
+      <li><a href="#stdfopen-cstdio" id="markdown-toc-stdfopen-cstdio"><code class="highlighter-rouge">std::fopen</code> <sup><code class="highlighter-rouge">&lt;cstdio&gt;</code></sup></a>        <ul>
+          <li><a href="#header" id="markdown-toc-header">Header</a></li>
+          <li><a href="#parameter" id="markdown-toc-parameter">Parameter</a></li>
+          <li><a href="#return" id="markdown-toc-return">Return</a></li>
+        </ul>
+      </li>
+      <li><a href="#stdfscanf-cstdio" id="markdown-toc-stdfscanf-cstdio"><code class="highlighter-rouge">std::fscanf</code> <sup><code class="highlighter-rouge">&lt;cstdio&gt;</code></sup></a>        <ul>
+          <li><a href="#header-1" id="markdown-toc-header-1">Header</a></li>
+          <li><a href="#parameter-1" id="markdown-toc-parameter-1">Parameter</a></li>
+          <li><a href="#return-1" id="markdown-toc-return-1">Return</a></li>
+        </ul>
+      </li>
+      <li><a href="#stdfclose-cstdio" id="markdown-toc-stdfclose-cstdio"><code class="highlighter-rouge">std::fclose</code> <sup><code class="highlighter-rouge">&lt;cstdio&gt;</code></sup></a>        <ul>
+          <li><a href="#header-2" id="markdown-toc-header-2">Header</a></li>
+          <li><a href="#parameter-2" id="markdown-toc-parameter-2">Parameter</a></li>
+          <li><a href="#return-2" id="markdown-toc-return-2">Return</a></li>
+        </ul>
+      </li>
+      <li><a href="#stdgets-cstdio" id="markdown-toc-stdgets-cstdio"><code class="highlighter-rouge">std::gets</code> <sup><code class="highlighter-rouge">&lt;cstdio&gt;</code></sup></a>        <ul>
+          <li><a href="#header-3" id="markdown-toc-header-3">Header</a></li>
+          <li><a href="#parameter-3" id="markdown-toc-parameter-3">Parameter</a></li>
+          <li><a href="#return-3" id="markdown-toc-return-3">Return</a></li>
+        </ul>
+      </li>
+      <li><a href="#stdfprintf-cstdio" id="markdown-toc-stdfprintf-cstdio"><code class="highlighter-rouge">std::fprintf</code> <sup><code class="highlighter-rouge">&lt;cstdio&gt;</code></sup></a>        <ul>
+          <li><a href="#header-4" id="markdown-toc-header-4">Header</a></li>
+          <li><a href="#parameter-4" id="markdown-toc-parameter-4">Parameter</a></li>
+        </ul>
+      </li>
+      <li><a href="#stdfseek-cstdio" id="markdown-toc-stdfseek-cstdio"><code class="highlighter-rouge">std::fseek</code> <sup><code class="highlighter-rouge">&lt;cstdio&gt;</code></sup></a>        <ul>
+          <li><a href="#header-5" id="markdown-toc-header-5">Header</a></li>
+          <li><a href="#parameter-5" id="markdown-toc-parameter-5">Parameter</a></li>
+          <li><a href="#return-4" id="markdown-toc-return-4">Return</a></li>
+        </ul>
+      </li>
+      <li><a href="#stdmalloc-cstdlib" id="markdown-toc-stdmalloc-cstdlib"><code class="highlighter-rouge">std::malloc</code> <sup><code class="highlighter-rouge">&lt;cstdlib&gt;</code></sup></a>        <ul>
+          <li><a href="#header-6" id="markdown-toc-header-6">Header</a></li>
+          <li><a href="#parameter-6" id="markdown-toc-parameter-6">Parameter</a></li>
+          <li><a href="#return-5" id="markdown-toc-return-5">Return</a></li>
+        </ul>
+      </li>
+      <li><a href="#stdfree-cstdlib" id="markdown-toc-stdfree-cstdlib"><code class="highlighter-rouge">std::free</code> <sup><code class="highlighter-rouge">&lt;cstdlib&gt;</code></sup></a>        <ul>
+          <li><a href="#header-7" id="markdown-toc-header-7">Header</a></li>
+          <li><a href="#parameter-7" id="markdown-toc-parameter-7">Parameter</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#type" id="markdown-toc-type">Type</a>    <ul>
+      <li><a href="#stdfile" id="markdown-toc-stdfile"><code class="highlighter-rouge">std::FILE</code></a></li>
+    </ul>
+  </li>
+  <li><a href="#constant" id="markdown-toc-constant">Constant</a>    <ul>
+      <li><a href="#seek_set" id="markdown-toc-seek_set"><code class="highlighter-rouge">SEEK_SET</code></a></li>
+      <li><a href="#seek_cur" id="markdown-toc-seek_cur"><code class="highlighter-rouge">SEEK_CUR</code></a></li>
+      <li><a href="#seek_end" id="markdown-toc-seek_end"><code class="highlighter-rouge">SEEK_END</code></a></li>
+    </ul>
+  </li>
+  <li><a href="#source-code" id="markdown-toc-source-code">Source Code</a></li>
+  <li><a href="#appendix" id="markdown-toc-appendix">Appendix</a>    <ul>
+      <li><a href="#mode" id="markdown-toc-mode"><code class="highlighter-rouge">mode</code></a></li>
+      <li><a href="#stdfscanf" id="markdown-toc-stdfscanf"><code class="highlighter-rouge">std::fscanf</code></a></li>
+      <li><a href="#stdfprintf" id="markdown-toc-stdfprintf"><code class="highlighter-rouge">std::fprintf</code></a></li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Original guidance: <a href="https://github.com/guyaqi/backups/blob/master/notes/cpp1-1.md">简单文件IO操作</a> <br />
+Additional reference: <a href="https://en.cppreference.com/w/">cppreference</a></p>
+</blockquote>
+
+<h1 id="function">Function</h1>
+
+<h2 id="stdfopen-cstdio"><code class="highlighter-rouge">std::fopen</code> <sup><code class="highlighter-rouge">&lt;cstdio&gt;</code></sup></h2>
+
+<blockquote>
+  <p>Reference: <a href="https://en.cppreference.com/w/cpp/io/c/fopen"><code class="highlighter-rouge">std::fopen</code></a></p>
+</blockquote>
+
+<h3 id="header">Header</h3>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">std</span><span class="o">::</span><span class="kt">FILE</span><span class="o">*</span> <span class="nf">fopen</span><span class="p">(</span> <span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">filename</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">mode</span> <span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="parameter">Parameter</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">const char* filename</code></li>
+  <li><code class="highlighter-rouge">const char* mode</code> (For details, please check the appendix <a href="##```mode```"><code class="highlighter-rouge">mode</code></a>)</li>
+</ul>
+
+<h3 id="return">Return</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">std::FILE*</code> (For details, please check the entry <a href="##```std::FILE```"><code class="highlighter-rouge">std::FILE</code></a>)</li>
+</ul>
+
+<h2 id="stdfscanf-cstdio"><code class="highlighter-rouge">std::fscanf</code> <sup><code class="highlighter-rouge">&lt;cstdio&gt;</code></sup></h2>
+
+<blockquote>
+  <p>Reference: <a href="https://en.cppreference.com/w/cpp/io/c/fscanf"><code class="highlighter-rouge">std::fscanf</code></a></p>
+</blockquote>
+
+<h3 id="header-1">Header</h3>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">fscanf</span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="kt">FILE</span><span class="o">*</span> <span class="n">stream</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">format</span><span class="p">,</span> <span class="p">...</span> <span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="parameter-1">Parameter</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">std::FILE* stream</code> (For details, please check the entry <a href="##```std::FILE```"><code class="highlighter-rouge">std::FILE</code></a>)</li>
+  <li><code class="highlighter-rouge">const char* format</code> (For details, please check the appdendix <a href="##```std::fscanf```"><code class="highlighter-rouge">std::fscanf</code></a>)</li>
+  <li><code class="highlighter-rouge">...</code> (received arguments)</li>
+</ul>
+
+<h3 id="return-1">Return</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">int</code> <br /> <strong>Number of receiving arguments successfully assigned</strong> (which may be <code class="highlighter-rouge">0</code> in case a <strong>matching failure</strong> occurred before the first receiving argument was assigned), or <code class="highlighter-rouge">EOF</code> if <strong>input failure</strong> occurs before the first receiving argument was assigned.</li>
+</ul>
+
+<h2 id="stdfclose-cstdio"><code class="highlighter-rouge">std::fclose</code> <sup><code class="highlighter-rouge">&lt;cstdio&gt;</code></sup></h2>
+
+<blockquote>
+  <p>Reference: <a href="https://en.cppreference.com/w/cpp/io/c/fclose"><code class="highlighter-rouge">std::fclode</code></a></p>
+</blockquote>
+
+<h3 id="header-2">Header</h3>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">fclose</span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="kt">FILE</span><span class="o">*</span> <span class="n">stream</span> <span class="p">);</span>
+</code></pre></div></div>
+<h3 id="parameter-2">Parameter</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">std::FILE* stream</code></li>
+</ul>
+
+<h3 id="return-2">Return</h3>
+
+<ul>
+  <li>int <br /> <code class="highlighter-rouge">0</code>​ on success, <code class="highlighter-rouge">EOF</code> otherwise</li>
+</ul>
+
+<h2 id="stdgets-cstdio"><code class="highlighter-rouge">std::gets</code> <sup><code class="highlighter-rouge">&lt;cstdio&gt;</code></sup></h2>
+<blockquote>
+  <p>Reference: <a href="https://en.cppreference.com/w/cpp/io/c/gets"><code class="highlighter-rouge">std::fopen</code></a></p>
+</blockquote>
+
+<blockquote>
+  <p>Warning: You’d better use <code class="highlighter-rouge">std::fgets</code> instead of <code class="highlighter-rouge">std::gets</code> for its unsecurity of buffer overflowing. For details, please check <a href="https://en.cppreference.com/w/cpp/io/c/fgets"><code class="highlighter-rouge">std::fgets</code></a>.</p>
+</blockquote>
+
+<h3 id="header-3">Header</h3>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">char</span><span class="o">*</span> <span class="nf">gets</span><span class="p">(</span> <span class="kt">char</span><span class="o">*</span> <span class="n">str</span> <span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="parameter-3">Parameter</h3>
+<ul>
+  <li><code class="highlighter-rouge">char* str</code> <br /> character string to be written</li>
+</ul>
+
+<h3 id="return-3">Return</h3>
+<ul>
+  <li><code class="highlighter-rouge">char*</code> <br /> <code class="highlighter-rouge">str</code> on success, <code class="highlighter-rouge">NULL</code> on failure. <br />
+If the failure has been caused by <strong>end of file condition</strong>, additionally sets the <code class="highlighter-rouge">eof</code> indicator (see <a href="https://en.cppreference.com/w/cpp/io/c/feof"><code class="highlighter-rouge">std::feof</code></a>) on <code class="highlighter-rouge">stdin</code>. <br /> If the failure has been caused by some other error, sets <strong>the error indicator</strong> (see <a href="https://en.cppreference.com/w/cpp/io/c/ferror"><code class="highlighter-rouge">std::ferror</code></a>) on <code class="highlighter-rouge">stdin</code>.</li>
+</ul>
+
+<h2 id="stdfprintf-cstdio"><code class="highlighter-rouge">std::fprintf</code> <sup><code class="highlighter-rouge">&lt;cstdio&gt;</code></sup></h2>
+
+<blockquote>
+  <p>Reference: <a href="https://en.cppreference.com/w/cpp/io/c/fprintf"><code class="highlighter-rouge">std::fprintf</code></a></p>
+</blockquote>
+
+<h3 id="header-4">Header</h3>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">fprintf</span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="kt">FILE</span><span class="o">*</span> <span class="n">stream</span><span class="p">,</span> <span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">format</span><span class="p">,</span> <span class="p">...</span> <span class="p">);</span>
+</code></pre></div></div>
+<h3 id="parameter-4">Parameter</h3>
+<ul>
+  <li><code class="highlighter-rouge">std::FILE* stream</code></li>
+  <li><code class="highlighter-rouge">const char* format</code> (For details, please check the appendix <a href="##```std::fprintf```"><code class="highlighter-rouge">std::fprintf</code></a>)</li>
+  <li><code class="highlighter-rouge">...</code> <br /> Arguments specifying data to print. <br />If any argument after default conversions is not the type expected by the corresponding conversion specifier, or if there are fewer arguments than required by format, the behavior is <strong>undefined</strong>. <br />If there are more arguments than required by format, the extraneous arguments are <strong>evaluated and ignored</strong>.</li>
+</ul>
+
+<h2 id="stdfseek-cstdio"><code class="highlighter-rouge">std::fseek</code> <sup><code class="highlighter-rouge">&lt;cstdio&gt;</code></sup></h2>
+
+<blockquote>
+  <p>Reference: <a href="https://en.cppreference.com/w/cpp/io/c/fseek"><code class="highlighter-rouge">std::fseek</code></a></p>
+</blockquote>
+
+<h3 id="header-5">Header</h3>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">fseek</span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="kt">FILE</span><span class="o">*</span> <span class="n">stream</span><span class="p">,</span> <span class="kt">long</span> <span class="n">offset</span><span class="p">,</span> <span class="kt">int</span> <span class="n">origin</span> <span class="p">);</span>
+</code></pre></div></div>
+<h3 id="parameter-5">Parameter</h3>
+<ul>
+  <li><code class="highlighter-rouge">std::FILE* stream</code> <br /> (There are some restritions and default settings for the mode of the stream. Please check the entry <a href="##```std::fopen```-&lt;sup&gt;```&lt;cstdio&gt;```&lt;/sup&gt;"><code class="highlighter-rouge">std::fopen</code></a>) or the appendix <a href="##```mode```"><code class="highlighter-rouge">mode</code></a> for details.)</li>
+  <li><code class="highlighter-rouge">long offset</code> <br /> number of characters to shift the position relative to origin.</li>
+  <li><code class="highlighter-rouge">int origin</code> <br /> position to which offset is added. It can have one of the following values:<br /> <a href="##```SEEK_SET```"><code class="highlighter-rouge">SEEK_SET</code></a><br /> <a href="##```SEEK_CUR```"><code class="highlighter-rouge">SEEK_CUR</code></a><br /> <a href="##```SEEK_END```"><code class="highlighter-rouge">SEEK_END</code></a> <br /> Please check the appendix for details.
+    <h3 id="return-4">Return</h3>
+    <p><code class="highlighter-rouge">0</code>​ upon success, <strong>nonzero</strong> value otherwise.</p>
+  </li>
+</ul>
+
+<h2 id="stdmalloc-cstdlib"><code class="highlighter-rouge">std::malloc</code> <sup><code class="highlighter-rouge">&lt;cstdlib&gt;</code></sup></h2>
+
+<blockquote>
+  <p>Reference: <a href="https://en.cppreference.com/w/cpp/memory/c/malloc"><code class="highlighter-rouge">std::malloc</code></a></p>
+</blockquote>
+
+<h3 id="header-6">Header</h3>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span><span class="o">*</span> <span class="nf">malloc</span><span class="p">(</span> <span class="n">std</span><span class="o">::</span><span class="kt">size_t</span> <span class="n">size</span> <span class="p">);</span>
+</code></pre></div></div>
+<h3 id="parameter-6">Parameter</h3>
+<ul>
+  <li><code class="highlighter-rouge">std::size_t size</code> <br /> number of bytes to allocate
+    <h3 id="return-5">Return</h3>
+    <p>On success, returns <strong>the pointer to the beginning of newly allocated memory</strong>. To avoid a memory leak, the returned pointer must be deallocated with <code class="highlighter-rouge">std::free()</code> or <code class="highlighter-rouge">std::realloc()</code>. <br />
+On failure, returns a <strong>null pointer</strong>.</p>
+  </li>
+</ul>
+
+<h2 id="stdfree-cstdlib"><code class="highlighter-rouge">std::free</code> <sup><code class="highlighter-rouge">&lt;cstdlib&gt;</code></sup></h2>
+<h3 id="header-7">Header</h3>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">free</span><span class="p">(</span> <span class="kt">void</span><span class="o">*</span> <span class="n">ptr</span> <span class="p">);</span>
+</code></pre></div></div>
+<h3 id="parameter-7">Parameter</h3>
+<ul>
+  <li><code class="highlighter-rouge">ptr</code> <br /> pointer to the memory to deallocate</li>
+</ul>
+
+<h1 id="type">Type</h1>
+
+<h2 id="stdfile"><code class="highlighter-rouge">std::FILE</code></h2>
+
+<h1 id="constant">Constant</h1>
+
+<h2 id="seek_set"><code class="highlighter-rouge">SEEK_SET</code></h2>
+<p>Argument to <code class="highlighter-rouge">std::fseek</code> indicating seeking from beginning of the file</p>
+<h2 id="seek_cur"><code class="highlighter-rouge">SEEK_CUR</code></h2>
+<p>Argument to <code class="highlighter-rouge">std::fseek</code> indicating seeking from the current file position</p>
+<h2 id="seek_end"><code class="highlighter-rouge">SEEK_END</code></h2>
+<p>Argument to <code class="highlighter-rouge">std::fseek</code> indicating seeking from end of the file</p>
+
+<h1 id="source-code">Source Code</h1>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;cstdio&gt;
+#include &lt;cstdlib&gt;
+#include &lt;fstream&gt;
+</span>
+<span class="kt">int</span> <span class="nf">checkyou</span><span class="p">();</span>
+<span class="kt">int</span> <span class="nf">checkme</span><span class="p">();</span>
+<span class="kt">int</span> <span class="nf">check</span><span class="p">();</span>
+
+<span class="kt">int</span> <span class="nf">checkyou</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span> 
+<span class="p">{</span>
+    <span class="kt">FILE</span> <span class="o">*</span><span class="n">file</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">fopen</span><span class="p">(</span><span class="s">"you.txt"</span><span class="p">,</span><span class="s">"r"</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">file</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">fclose</span><span class="p">(</span><span class="n">file</span><span class="p">);</span>
+        <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">fclose</span><span class="p">(</span><span class="n">file</span><span class="p">);</span>
+        <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">checkme</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span> 
+<span class="p">{</span>
+    <span class="kt">FILE</span> <span class="o">*</span><span class="n">file</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">fopen</span><span class="p">(</span><span class="s">"me.txt"</span><span class="p">,</span><span class="s">"r"</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">file</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">fclose</span><span class="p">(</span><span class="n">file</span><span class="p">);</span>
+        <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">fclose</span><span class="p">(</span><span class="n">file</span><span class="p">);</span>
+        <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">check</span><span class="p">()</span> 
+<span class="p">{</span>
+    <span class="kt">char</span> <span class="n">choice</span><span class="p">;</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">scanf</span><span class="p">(</span><span class="s">"%c"</span><span class="p">,</span><span class="o">&amp;</span><span class="n">choice</span><span class="p">);</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">choice</span> <span class="o">==</span> <span class="sc">'Y'</span><span class="p">)</span> <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+    <span class="k">else</span> <span class="p">{</span><span class="k">if</span><span class="p">(</span><span class="n">choice</span> <span class="o">==</span> <span class="sc">'n'</span><span class="p">)</span> <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">else</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">printf</span><span class="p">(</span><span class="s">"Invalid input!</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">EOF</span><span class="p">;}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> 
+<span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="n">checkyou</span><span class="p">())</span> <span class="p">{</span> <span class="n">std</span><span class="o">::</span><span class="n">printf</span><span class="p">(</span><span class="s">"[warning] There is no such a file </span><span class="se">\"</span><span class="s">you.txt</span><span class="se">\"</span><span class="s">, would you like to create a new one?[Y/n]</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="k">if</span><span class="p">(</span><span class="n">check</span><span class="p">())</span> <span class="p">{</span>
+            <span class="n">std</span><span class="o">::</span><span class="n">fopen</span><span class="p">(</span><span class="s">"you.txt"</span><span class="p">,</span><span class="s">"w"</span><span class="p">);</span> 
+            <span class="n">std</span><span class="o">::</span><span class="n">printf</span><span class="p">(</span><span class="s">"A new file </span><span class="se">\"</span><span class="s">you.txt</span><span class="se">\"</span><span class="s"> has been added to the present path.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="k">else</span> <span class="n">std</span><span class="o">::</span><span class="n">printf</span><span class="p">(</span><span class="s">"The file will not be added.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        
+       
+    <span class="k">if</span><span class="p">(</span><span class="n">checkme</span><span class="p">())</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">printf</span><span class="p">(</span><span class="s">"The file </span><span class="se">\"</span><span class="s">me.txt</span><span class="se">\"</span><span class="s"> has already existed, would you like to rewrite the file?[Y/n]"</span><span class="p">);</span>
+        <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="n">check</span><span class="p">())</span> <span class="n">std</span><span class="o">::</span><span class="n">printf</span><span class="p">(</span><span class="s">"The file </span><span class="se">\"</span><span class="s">me.txt</span><span class="se">\"</span><span class="s"> will not be rewrite.</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span> <span class="n">EOF</span><span class="p">;</span>
+    <span class="p">}</span>      
+
+    <span class="kt">FILE</span> <span class="o">*</span><span class="n">you</span> <span class="o">=</span><span class="n">std</span><span class="o">::</span><span class="n">fopen</span><span class="p">(</span><span class="s">"you.txt"</span><span class="p">,</span><span class="s">"r"</span><span class="p">);</span>
+    <span class="c1">// FILE *me =std::fopen("me.txt","w");</span>
+
+    <span class="n">fseek</span><span class="p">(</span><span class="n">you</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">SEEK_END</span><span class="p">);</span>
+    <span class="kt">int</span> <span class="n">size</span> <span class="o">=</span> <span class="n">ftell</span><span class="p">(</span><span class="n">you</span><span class="p">);</span>
+    <span class="n">fseek</span><span class="p">(</span><span class="n">you</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">SEEK_SET</span><span class="p">);</span>
+    <span class="kt">char</span> <span class="o">*</span><span class="n">buf</span> <span class="o">=</span> <span class="p">(</span><span class="kt">char</span><span class="o">*</span><span class="p">)</span><span class="n">std</span><span class="o">::</span><span class="n">malloc</span><span class="p">(</span><span class="n">size</span><span class="o">+</span><span class="mi">1</span><span class="p">);</span>
+    <span class="n">buf</span><span class="p">[</span><span class="n">size</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="n">fread</span><span class="p">(</span><span class="n">buf</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="n">size</span><span class="p">,</span> <span class="n">you</span><span class="p">);</span>
+
+    <span class="c1">// ?? std::snprintf(buf, size, "s",);</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">ofstream</span> <span class="n">me</span><span class="p">;</span>
+    <span class="n">me</span><span class="p">.</span><span class="n">open</span><span class="p">(</span><span class="s">"me.txt"</span><span class="p">);</span>
+    <span class="n">me</span> <span class="o">&lt;&lt;</span> <span class="n">buf</span><span class="p">;</span>
+
+    <span class="n">std</span><span class="o">::</span><span class="n">fclose</span><span class="p">(</span><span class="n">you</span><span class="p">);</span>
+    <span class="c1">// std::fclose(me);</span>
+    <span class="n">me</span><span class="p">.</span><span class="n">close</span><span class="p">();</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h1 id="appendix">Appendix</h1>
+
+<h2 id="mode"><code class="highlighter-rouge">mode</code></h2>
+
+<table>
+<tr>
+<th> File access <br />mode string
+</th>
+<th> Meaning
+</th>
+<th> Explanation
+</th>
+<th> Action if file <br /> already exists
+</th>
+<th> Action if file <br /> does not exist
+</th></tr>
+<tr>
+<td> <code>"r"</code>
+</td>
+<td> read
+</td>
+<td> Open a file for reading
+</td>
+<td> read from start
+</td>
+<td> failure to open
+</td></tr>
+<tr>
+<td> <code>"w"</code>
+</td>
+<td> write
+</td>
+<td> Create a file for writing
+</td>
+<td> destroy contents
+</td>
+<td> create new
+</td></tr>
+<tr>
+<td> <code>"a"</code>
+</td>
+<td> append
+</td>
+<td> Append to a file
+</td>
+<td> write to end
+</td>
+<td> create new
+</td></tr>
+<tr>
+<td> <code>"r+"</code>
+</td>
+<td> read extended
+</td>
+<td> Open a file for read/write
+</td>
+<td> read from start
+</td>
+<td> error
+</td></tr>
+<tr>
+<td> <code>"w+"</code>
+</td>
+<td> write extended
+</td>
+<td> Create a file for read/write
+</td>
+<td> destroy contents
+</td>
+<td> create new
+</td></tr>
+<tr>
+<td> <code>"a+"</code>
+</td>
+<td> append extended
+</td>
+<td> Open a file for read/write
+</td>
+<td> write to end
+</td>
+<td> create new
+</td></tr>
+<tr>
+<td colspan="5"> File access mode flag <code>"b"</code> can optionally be specified to open a file <a href="/w/cpp/io/c#Binary_and_text_modes" title="cpp/io/c">in binary mode</a>. This flag has no effect on POSIX systems, but on Windows, for example, it disables special handling of <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="st0">'<span class="es1">\n</span>'</span></span></span> and <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="st0">'<span class="es2">\x1A</span>'</span></span></span>. <br /> On the append file access modes, data is written to the end of the file regardless of the current position of the file position indicator.
+</td></tr>
+<tr>
+<td colspan="5"> File access mode flag <code>"x"</code> can optionally be appended to "w" or "w+" specifiers. This flag forces the function to fail if the file exists, instead of overwriting it. <span class="t-mark-rev t-since-cxx17">(C++17)</span>
+</td></tr>
+<tr>
+<td colspan="5"> The behavior is undefined if the mode is not one of the strings listed above. Some implementations define additional supported modes (e.g. <a rel="nofollow" class="external text" href="https://msdn.microsoft.com/en-us/library/yeby3zcb.aspx">Windows</a>).
+</td></tr></table>
+
+<h2 id="stdfscanf"><code class="highlighter-rouge">std::fscanf</code></h2>
+
+<table>
+<tr>
+<th rowspan="1"> Conversion<br /> specifier
+</th>
+<th rowspan="1"> Explanation
+</th>
+<th colspan="9"> Argument type
+</th></tr>
+<tr>
+<th colspan="2" style="text-align:right; font-weight:normal;"> length modifier
+</th>
+<th> <code>hh</code>
+<p><span class="t-mark-rev t-since-cxx11">(C++11)</span>
+</p>
+</th>
+<th> <code>h</code>
+</th>
+<th style="font-weight:normal;"> (none)
+</th>
+<th> <code><b>l</b></code>
+</th>
+<th> <code><b>ll</b></code>
+<p><span class="t-mark-rev t-since-cxx11">(C++11)</span>
+</p>
+</th>
+<th> <code><b>j</b></code>
+<p><span class="t-mark-rev t-since-cxx11">(C++11)</span>
+</p>
+</th>
+<th> <code><b>z</b></code>
+<p><span class="t-mark-rev t-since-cxx11">(C++11)</span>
+</p>
+</th>
+<th> <code><b>t</b></code>
+<p><span class="t-mark-rev t-since-cxx11">(C++11)</span>
+</p>
+</th>
+<th> <code><b>L</b></code>
+</th></tr>
+<tr>
+<th> <code>%</code>
+</th>
+<td style="text-align:left;"> matches literal <code><b>%</b></code>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>c</code>
+</th>
+<td style="text-align:left;">
+<dl><dd> matches a <b>character</b> or a sequence of <b>characters</b>
+</dd></dl>
+<p>If a width specifier is used, matches exactly <i>width</i>  characters (the argument must be a pointer to an array with sufficient room). Unlike&#160;%s and&#160;%[, does not append the null character to the array.
+</p>
+</td>
+<td rowspan="3" style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td rowspan="3" style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td rowspan="3"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">char</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td rowspan="3"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">wchar_t</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td rowspan="3" style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td rowspan="3" style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td rowspan="3" style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td rowspan="3" style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td rowspan="3" style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>s</code>
+</th>
+<td style="text-align:left;">
+<dl><dd> matches a sequence of non-whitespace characters (a <b>string</b>)
+</dd></dl>
+<p>If width specifier is used, matches up to <i>width</i> or until the first whitespace character, whichever appears first. Always stores a null character in addition to the characters matched (so the argument array must have room for at least <i>width+1</i> characters)
+</p>
+</td></tr>
+<tr>
+<th> <code>[</code><span class="t-spar">set</span><code>]</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>matches a non-empty sequence of character from <span class="t-spar">set</span> of characters.
+</dd></dl>
+<p>If the first character of the set is <code>^</code>, then all characters not in the set are matched. If the set begins with <code>]</code> or <code>^]</code> then the <code>]</code> character is also included into the set. It is implementation-defined whether the character <code>-</code> in the non-initial position in the scanset may be indicating a range, as in <code>[0-9]</code>. If width specifier is used, matches only up to <i>width</i>. Always stores a null character in addition to the characters matched (so the argument array must have room for at least <i>width+1</i> characters)
+</p>
+</td></tr>
+<tr>
+<th> <code>d</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>matches a <b>decimal integer</b>.
+</dd></dl>
+<p>The format of the number is the same as expected by <a href="/w/cpp/string/byte/strtol" title="cpp/string/byte/strtol"><tt>strtol()</tt></a> with the value <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="nu0">10</span></span></span> for the <code>base</code> argument
+</p>
+</td>
+<td rowspan="6"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">signed</span> <span class="kw4">char</span><span class="sy2">*</span></span></span> or <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">unsigned</span> <span class="kw4">char</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td rowspan="6"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">signed</span> <span class="kw4">short</span><span class="sy2">*</span></span></span> or <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">unsigned</span> <span class="kw4">short</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td rowspan="6"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">signed</span> <span class="kw4">int</span><span class="sy2">*</span></span></span> or <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">unsigned</span> <span class="kw4">int</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td rowspan="6"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">signed</span> <span class="kw4">long</span><span class="sy2">*</span></span></span> or <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">unsigned</span> <span class="kw4">long</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td rowspan="6"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">signed</span> <span class="kw4">long</span> <span class="kw4">long</span><span class="sy2">*</span></span></span> or <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">unsigned</span> <span class="kw4">long</span> <span class="kw4">long</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td rowspan="6"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp">intmax_t<span class="sy2">*</span></span></span> or <span class="t-c"><span class="mw-geshi cpp source-cpp">uintmax_t<span class="sy2">*</span></span></span></div></div>
+</td>
+<td rowspan="6"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp">size_t<span class="sy2">*</span></span></span></div></div>
+</td>
+<td rowspan="6"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp">ptrdiff_t<span class="sy2">*</span></span></span></div></div>
+</td>
+<td rowspan="6" style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>i</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>matches an <b>integer</b>.
+</dd></dl>
+<p>The format of the number is the same as expected by <a href="/w/cpp/string/byte/strtol" title="cpp/string/byte/strtol"><tt>strtol()</tt></a> with the value <span class="t-c"><span class="mw-geshi cpp source-cpp">​<span class="nu0">0</span>​</span></span> for the <code>base</code> argument (base is determined by the first characters parsed)
+</p>
+</td></tr>
+<tr>
+<th> <code>u</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>matches an unsigned <b>decimal integer</b>. 
+</dd></dl>
+<p>The format of the number is the same as expected by <a href="/w/cpp/string/byte/strtoul" title="cpp/string/byte/strtoul"><tt>strtoul()</tt></a> with the value <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="nu0">10</span></span></span> for the <code>base</code> argument.
+</p>
+</td></tr>
+<tr>
+<th> <code>o</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>matches an unsigned <b>octal integer</b>.
+</dd></dl>
+<p>The format of the number is the same as expected by <a href="/w/cpp/string/byte/strtoul" title="cpp/string/byte/strtoul"><tt>strtoul()</tt></a> with the value <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="nu0">8</span></span></span> for the <code>base</code> argument
+</p>
+</td></tr>
+<tr>
+<th> <code>x</code>, <code>X</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>matches an unsigned <b>hexadecimal integer</b>.
+</dd></dl>
+<p>The format of the number is the same as expected by <a href="/w/cpp/string/byte/strtoul" title="cpp/string/byte/strtoul"><tt>strtoul()</tt></a> with the value <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="nu0">16</span></span></span> for the <code>base</code> argument
+</p>
+</td></tr>
+<tr>
+<th> <code>n</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>returns the <b>number of characters read so far</b>.
+</dd></dl>
+<p>No input is consumed. Does not increment the assignment count. If the specifier has assignment-suppressing operator defined, the behavior is undefined
+</p>
+</td></tr>
+<tr>
+<th> <code>a</code>, <code>A</code><span class="t-mark-rev t-since-cxx11">(C++11)</span><br /> <code>e</code>, <code>E</code><br /> <code>f</code>, <code>F</code><br /> <code>g</code>, <code>G</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>matches a <b>floating-point number</b>.
+</dd></dl>
+<p>The format of the number is the same as expected by <a href="/w/cpp/string/byte/strtof" title="cpp/string/byte/strtof"><tt>strtof()</tt></a>
+</p>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">float</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">double</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">long</span> <span class="kw4">double</span><span class="sy2">*</span></span></span></div></div>
+</td></tr>
+<tr>
+<th> <code>p</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>matches implementation defined character sequence defining a <b>pointer</b>.
+</dd></dl>
+<p><code>printf</code> family of functions should produce the same sequence using <code><b>%p</b></code> format specifier
+</p>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">void</span><span class="sy2">**</span></span></span></div></div>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr></table>
+
+<h2 id="stdfprintf"><code class="highlighter-rouge">std::fprintf</code></h2>
+
+<table class="t-par-begin">
+<tr class="t-par">
+<td>  pointer to a null-terminated multibyte string specifying how to interpret the data.
+<p>The format string consists of ordinary multibyte characters (except <code><b>%</b></code>), which are copied unchanged into the output stream, and conversion specifications. Each conversion specification has the following format:
+</p>
+<dl><dd><ul><li> introductory <code><b>%</b></code> character
+</li></ul>
+</dd></dl>
+<dl><dd><ul><li> <span class="t-mark">(optional)</span> one or more flags that modify the behavior of the conversion:
+</li></ul>
+<dl><dd><ul><li> <code><b>-</b></code>: the result of the conversion is left-justified within the field (by default it is right-justified)
+</li><li> <code><b>+</b></code>: the sign of signed conversions is always prepended to the result of the conversion (by default the result is preceded by minus only when it is negative)
+</li><li> <i>space</i>: if the result of a signed conversion does not start with a sign character, or is empty, space is prepended to the result. It is ignored if <code>+</code> flag is present.
+</li><li> <code><b>#</b></code>&#160;: <i>alternative form</i> of the conversion is performed. See the table below for exact effects otherwise the behavior is undefined.
+</li><li> <code><b>0</b></code>&#160;: for integer and floating point number conversions, leading zeros are used to pad the field instead of <i>space</i> characters. For integer numbers it is ignored if the precision is explicitly specified. For other conversions using this flag results in undefined behavior. It is ignored if <code>-</code> flag is present.
+</li></ul>
+</dd></dl>
+</dd></dl>
+<dl><dd><ul><li> <span class="t-mark">(optional)</span> integer value or <code>*</code> that specifies minimum field width. The result is padded with <i>space</i> characters (by default), if required, on the left when right-justified, or on the right if left-justified. In the case when <code>*</code> is used, the width is specified by an additional argument of type <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">int</span></span></span>. If the value of the argument is negative, it results with the <code>-</code> flag specified and positive field width. (Note: This is the minimum width: The value is never truncated.)
+</li></ul>
+</dd></dl>
+<dl><dd><ul><li> <span class="t-mark">(optional)</span> <code><b>.</b></code> followed by integer number or <code><b>*</b></code>, or neither that specifies <i>precision</i> of the conversion. In the case when <code>*</code> is used, the <i>precision</i> is specified by an additional argument of type <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">int</span></span></span>. If the value of this argument is negative, it is ignored. If neither a number nor <code><b>*</b></code> is used, the precision is taken as zero. See the table below for exact effects of <i>precision</i>. 
+</li></ul>
+</dd></dl>
+<dl><dd><ul><li> <span class="t-mark">(optional)</span> <i>length modifier</i> that specifies the size of the argument
+</li></ul>
+</dd></dl>
+<dl><dd><ul><li> conversion format specifier
+</li></ul>
+</dd></dl>
+<p>The following format specifiers are available:
+</p>
+<table class="wikitable" style="text-align:center; font-size:85%; max-width:90em;">
+<tr>
+<th rowspan="1"> Conversion<br /> specifier
+</th>
+<th rowspan="1"> Explanation
+</th>
+<th colspan="9"> Argument type
+</th></tr>
+<tr>
+<th colspan="2" style="text-align:right; font-weight:normal;"> length modifier
+</th>
+<th> <code>hh</code>
+<p><span class="t-mark-rev t-since-cxx11">(C++11)</span>
+</p>
+</th>
+<th> <code>h</code>
+</th>
+<th style="font-weight:normal;"> (none)
+</th>
+<th> <code><b>l</b></code>
+</th>
+<th> <code><b>ll</b></code>
+<p><span class="t-mark-rev t-since-cxx11">(C++11)</span>
+</p>
+</th>
+<th> <code><b>j</b></code>
+<p><span class="t-mark-rev t-since-cxx11">(C++11)</span>
+</p>
+</th>
+<th> <code><b>z</b></code>
+<p><span class="t-mark-rev t-since-cxx11">(C++11)</span>
+</p>
+</th>
+<th> <code><b>t</b></code>
+<p><span class="t-mark-rev t-since-cxx11">(C++11)</span>
+</p>
+</th>
+<th> <code><b>L</b></code>
+</th></tr>
+<tr>
+<th> <code>%</code>
+</th>
+<td style="text-align:left;"> writes literal <code><b>%</b></code>. The full conversion specification must be <code><b>%%</b></code>.
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>c</code>
+</th>
+<td style="text-align:left;">
+<dl><dd> writes a <b>single character</b>.
+</dd></dl>
+<p>The argument is first converted to <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">unsigned</span> <span class="kw4">char</span></span></span>.
+If the <b>l</b> modifier is used, the argument is first converted to a character string as if by <b>%ls</b> with a <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">wchar_t</span><span class="br0">&#91;</span><span class="nu0">2</span><span class="br0">&#93;</span></span></span> argument.
+</p>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">int</span></span></span></div></div>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp">wint_t</span></span></div></div>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>s</code>
+</th>
+<td style="text-align:left;">
+<dl><dd> writes a <b>character string</b>
+</dd></dl>
+<p>The argument must be a pointer to the initial element of an array of characters. 
+<i>Precision</i> specifies the maximum number of bytes to be written. If <i>Precision</i> is not specified, writes every byte up to and not including the first null terminator.
+If the <b>l</b> specifier is used, the argument must be a pointer to the initial element of an array of <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">wchar_t</span></span></span>, which is converted to char array as if by a call to <span class="t-lc">wcrtomb</span> with zero-initialized conversion state.
+</p>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">char</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">wchar_t</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>d</code><br /> <code>i</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>converts a <b>signed integer</b> into decimal representation <i>[-]dddd</i>.
+</dd></dl>
+<p><i>Precision</i> specifies the minimum number of digits to appear. The default precision is <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="nu0">1</span></span></span>.<br /> 
+If both the converted value and the precision are <span class="t-c"><span class="mw-geshi cpp source-cpp">​<span class="nu0">0</span>​</span></span> the conversion results in no characters.
+</p>
+</td>
+<td rowspan="1"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">signed</span> <span class="kw4">char</span></span></span></div></div>
+</td>
+<td rowspan="1"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">short</span></span></span></div></div>
+</td>
+<td rowspan="1"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">int</span></span></span></div></div>
+</td>
+<td rowspan="1"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">long</span></span></span></div></div>
+</td>
+<td rowspan="1"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">long</span> <span class="kw4">long</span></span></span></div></div>
+</td>
+<td rowspan="1"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp">intmax_t</span></span></div></div>
+</td>
+<td rowspan="1"> <div class="t-vertical"><div>signed <span class="t-c"><span class="mw-geshi cpp source-cpp">size_t</span></span></div></div>
+</td>
+<td rowspan="1"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp">ptrdiff_t</span></span></div></div>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>o</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>converts a <b>unsigned integer</b> into octal representation <i>oooo</i>.
+</dd></dl>
+<p><i>Precision</i> specifies the minimum number of digits to appear. The default precision is <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="nu0">1</span></span></span>. 
+If both the converted value and the precision are <span class="t-c"><span class="mw-geshi cpp source-cpp">​<span class="nu0">0</span>​</span></span> the conversion results in no characters.
+In the <i>alternative implementation</i> precision is increased if necessary, to write one leading zero.
+In that case if both the converted value and the precision are <span class="t-c"><span class="mw-geshi cpp source-cpp">​<span class="nu0">0</span>​</span></span>, single <span class="t-c"><span class="mw-geshi cpp source-cpp">​<span class="nu0">0</span>​</span></span> is written.
+</p>
+</td>
+<td rowspan="3"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">unsigned</span> <span class="kw4">char</span></span></span></div></div>
+</td>
+<td rowspan="3"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">unsigned</span> <span class="kw4">short</span></span></span></div></div>
+</td>
+<td rowspan="3"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">unsigned</span> <span class="kw4">int</span></span></span></div></div>
+</td>
+<td rowspan="3"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">unsigned</span> <span class="kw4">long</span></span></span></div></div>
+</td>
+<td rowspan="3"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">unsigned</span> <span class="kw4">long</span> <span class="kw4">long</span></span></span></div></div>
+</td>
+<td rowspan="3"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp">uintmax_t</span></span></div></div>
+</td>
+<td rowspan="3"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp">size_t</span></span></div></div>
+</td>
+<td rowspan="3"> <div class="t-vertical"><div>unsigned version of <span class="t-c"><span class="mw-geshi cpp source-cpp">ptrdiff_t</span></span></div></div>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>x</code><br /> <code>X</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>converts an <b>unsigned integer</b> into hexadecimal representation <i>hhhh</i>.
+</dd></dl>
+<p>For the <code><b>x</b></code> conversion letters <code>abcdef</code> are used.<br />
+For the <code><b>X</b></code> conversion letters <code>ABCDEF</code> are used.<br />
+<i>Precision</i> specifies the minimum number of digits to appear. The default precision is <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="nu0">1</span></span></span>.
+If both the converted value and the precision are <span class="t-c"><span class="mw-geshi cpp source-cpp">​<span class="nu0">0</span>​</span></span> the conversion results in no characters.
+In the <i>alternative implementation</i> <code><b>0x</b></code> or <code><b>0X</b></code> is prefixed to results if the converted value is nonzero.
+</p>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>u</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>converts an <b>unsigned integer</b> into decimal representation <i>dddd</i>.
+</dd></dl>
+<p><i>Precision</i> specifies the minimum number of digits to appear. 
+The default precision is <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="nu0">1</span></span></span>. 
+If both the converted value and the precision are <span class="t-c"><span class="mw-geshi cpp source-cpp">​<span class="nu0">0</span>​</span></span> the conversion results in no characters.
+</p>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>f</code><br /> <code>F</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>converts <b>floating-point number</b> to the decimal notation in the style <i>[-]ddd.ddd</i>.
+</dd></dl>
+<p><i>Precision</i> specifies the minimum number of digits to appear after the decimal point character. 
+The default precision is <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="nu0">6</span></span></span>.
+In the <i>alternative implementation</i> decimal point character is written even if no digits follow it.
+For infinity and not-a-number conversion style see notes.
+</p>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td rowspan="4"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">double</span></span></span></div></div>
+</td>
+<td rowspan="4"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">double</span></span></span> <span class="t-mark-rev t-since-cxx11">(C++11)</span></div></div>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td rowspan="4"> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">long</span> <span class="kw4">double</span></span></span></div></div>
+</td></tr>
+<tr>
+<th> <code>e</code><br /> <code>E</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>converts <b>floating-point number</b> to the decimal exponent notation.
+</dd></dl>
+<p>For the <code><b>e</b></code> conversion style <i>[-]d.ddd</i><code><b>e</b></code><i>±dd</i> is used.<br />
+For the <code><b>E</b></code> conversion style <i>[-]d.ddd</i><code><b>E</b></code><i>±dd</i> is used.<br />
+The exponent contains at least two digits, more digits are used only if necessary. 
+If the value is <span class="t-c"><span class="mw-geshi cpp source-cpp">​<span class="nu0">0</span>​</span></span>, the exponent is also <span class="t-c"><span class="mw-geshi cpp source-cpp">​<span class="nu0">0</span>​</span></span>.
+<i>Precision</i> specifies the minimum number of digits to appear after the decimal point character.
+The default precision is <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="nu0">6</span></span></span>.
+In the <i>alternative implementation</i> decimal point character is written even if no digits follow it.
+For infinity and not-a-number conversion style see notes.
+</p>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>a</code><br /> <code>A</code>
+<p><span class="t-mark-rev t-since-cxx11">(C++11)</span>
+</p>
+</th>
+<td style="text-align:left;">
+<dl><dd>converts <b>floating-point number</b> to the hexadecimal exponent notation.
+</dd></dl>
+<p>For the <code><b>a</b></code> conversion style <i>[-]</i><code><b>0x</b></code><i>h.hhh</i><code><b>p</b></code><i>±d</i> is used.<br />
+For the <code><b>A</b></code> conversion style <i>[-]</i><code><b>0X</b></code><i>h.hhh</i><code><b>P</b></code><i>±d</i> is used.<br />
+The first hexadecimal digit is not <code>0</code> if the argument is a normalized floating point value.
+If the value is <span class="t-c"><span class="mw-geshi cpp source-cpp">​<span class="nu0">0</span>​</span></span>, the exponent is also <span class="t-c"><span class="mw-geshi cpp source-cpp">​<span class="nu0">0</span>​</span></span>.
+<i>Precision</i> specifies the minimum number of digits to appear after the decimal point character.
+The default precision is sufficient for exact representation of the value.
+In the <i>alternative implementation</i> decimal point character is written even if no digits follow it.
+For infinity and not-a-number conversion style see notes.
+</p>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>g</code><br /> <code>G</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>converts <b>floating-point number</b> to decimal or decimal exponent notation depending on the value and the <i>precision</i>.
+</dd></dl>
+<p>For the <code><b>g</b></code> conversion style conversion with style <code><b>e</b></code> or <code><b>f</b></code> will be performed.<br />
+For the <code><b>G</b></code> conversion style conversion with style <code><b>E</b></code> or <code><b>F</b></code> will be performed.<br />
+Let <code>P</code> equal the precision if nonzero, <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="nu0">6</span></span></span> if the precision is not specified, or <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="nu0">1</span></span></span> if the precision is <span class="t-c"><span class="mw-geshi cpp source-cpp">​<span class="nu0">0</span>​</span></span>. Then, if a conversion with style <code>E</code> would have an exponent of <code>X</code>:
+</p>
+<ul><li> if <i>P &gt; X ≥ −4</i>, the conversion is with style <code><b>f</b></code> or <code><b>F</b></code> and precision <i>P − 1 − X</i>.
+</li><li> otherwise, the conversion is with style <code><b>e</b></code> or <code><b>E</b></code> and precision <i>P − 1</i>.
+</li></ul>
+<p>Unless <i>alternative representation</i> is requested the trailing zeros are removed, also the decimal point character is removed if no fractional part is left.
+For infinity and not-a-number conversion style see notes.
+</p>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>n</code>
+</th>
+<td style="text-align:left;">
+<dl><dd>returns the <b>number of characters written</b> so far by this call to the function.
+</dd></dl>
+<p>The result is <i>written</i> to the value pointed to by the argument. 
+The specification may not contain any <i>flag</i>, <i>field width</i>, or <i>precision</i>.
+</p>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">signed</span> <span class="kw4">char</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">short</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">int</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">long</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">long</span> <span class="kw4">long</span><span class="sy2">*</span></span></span></div></div>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp">intmax_t<span class="sy2">*</span></span></span></div></div>
+</td>
+<td> <div class="t-vertical"><div>signed <span class="t-c"><span class="mw-geshi cpp source-cpp">size_t<span class="sy2">*</span></span></span></div></div>
+</td>
+<td> <div class="t-vertical"><div><span class="t-c"><span class="mw-geshi cpp source-cpp">ptrdiff_t<span class="sy2">*</span></span></span></div></div>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr>
+<tr>
+<th> <code>p</code>
+</th>
+<td style="text-align:left;"> writes an implementation defined character sequence defining a <b>pointer</b>.
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td> <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="kw4">void</span><span class="sy2">*</span></span></span>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td>
+<td style="background: #ececec; color: grey; vertical-align: middle; text-align: center;" class="table-na"> <small>N/A</small>
+</td></tr></table>
+<p>The floating point conversion functions convert infinity to <code>inf</code> or <code>infinity</code>. Which one is used is implementation defined.
+</p><p>Not-a-number is converted to <code>nan</code> or <code>nan(<i>char_sequence</i>)</code>. Which one is used is implementation defined.
+</p><p>The conversions <code><b>F</b></code>, <code><b>E</b></code>, <code><b>G</b></code>, <code><b>A</b></code> output <code>INF</code>, <code>INFINITY</code>, <code>NAN</code> instead.
+</p><p>Even though <code>%c</code> expects <code>int</code> argument, it is safe to pass a <code>char</code> because of the integer promotion that takes place when a variadic function is called.
+</p><p>The correct conversion specifications for the fixed-width character types (<span class="t-lc">int8_t</span>, etc) are defined in the header <a href="/w/cpp/types/integer" title="cpp/types/integer">&lt;cinttypes&gt;</a> (although <span class="t-lc"><a href="/w/cpp/types/integer" title="cpp/types/integer">PRIdMAX</a></span>, <span class="t-lc"><a href="/w/cpp/types/integer" title="cpp/types/integer">PRIuMAX</a></span>, etc is synonymous with <code>%jd</code>, <code>%ju</code>, etc).
+</p><p>The memory-writing conversion specifier <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="sy2">%</span>n</span></span> is a common target of security exploits where format strings depend on user input and is not supported by the bounds-checked <code>printf_s</code> family of functions.
+</p><p>There is a <a href="/w/cpp/language/eval_order" title="cpp/language/eval order">sequence point</a> after the action of each conversion specifier; this permits storing multiple <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="sy2">%</span>n</span></span> results in the same variable or, as an edge case, printing a string modified by an earlier <span class="t-c"><span class="mw-geshi cpp source-cpp"><span class="sy2">%</span>n</span></span> within the same call.
+</p><p>If a conversion specification is invalid, the behavior is undefined.
+</p><p>
+</p>
+</td></tr>
+</table>
+
+          </article>
+          <hr class="boundary">
+          <div id="post-share" class="bdsharebuttonbox">
+              <a href="#" class="bds_more" data-cmd="more"></a>
+              <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+              <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+              <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
+              <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+              <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+          </div>
+        </div>
+        <div class="pad-min"></div>
+        <div id="post-comment" class="sheet post hidden">
+            <div id="disqus_thread"></div>
+        </div>
+    </div>
+    <div class="content-navigation col-lg-3">
+      <div class="shadow-bottom-center" >
+        <div class="content-navigation-toc">
+            <div class="content-navigation-header">
+                <span class="octicon octicon-list-unordered"></span>&nbsp;Toc
+            </div>
+            <div class="content-navigation-list toc"></div>
+        </div>
+        <div class="content-navigation-tag">
+            <div class="content-navigation-header">
+                <span class="octicon octicon-list-unordered"></span>&nbsp;Tags
+            </div>
+            <div class="content-navigation-list">
+                <ul>
+                    
+                    <li>
+                        <a href="http://localhost:4000/tags#code"><span class="octicon octicon-tag"></span>&nbsp;code</a>
+                    </li>
+                    
+                    <li>
+                        <a href="http://localhost:4000/tags#C++"><span class="octicon octicon-tag"></span>&nbsp;C++</a>
+                    </li>
+                    
+                    <li>
+                        <a href="http://localhost:4000/tags#note"><span class="octicon octicon-tag"></span>&nbsp;note</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="content-navigation-related">
+            <div class="content-navigation-header">
+                <span class="octicon octicon-list-unordered"></span>&nbsp;Related
+            </div>
+            <div class="content-navigation-list">
+                <ul>
+                    
+
+                    
+
+                    
+                        
+                            <li>
+                                <a href="http://localhost:4000/python/python-graphical/">Python Graphicalization of Encapsulated Module</a>
+                            </li>
+                        
+                            <li>
+                                <a href="http://localhost:4000/python/python-worm/">python worm</a>
+                            </li>
+                        
+                            <li>
+                                <a href="http://localhost:4000/c++/second-homework/">A Brief Analysis of the Second Homework</a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+    </div>
+    <div class="page-scrollTop" data-toggle="tooltip" data-placement="top" title="Top">
+        <a href="javascript:void(0);">
+            <div class="arrow"></div>
+            <div class="stick"></div>
+        </a>
+    </div>
+</div>
+
+    <footer  class="footnote footnote-tiffany">
+        <div class="container">
+                <a class="foot-item" href="mailto:tamakazarishino@icloud.com" target="_blank"><span class="octicon octicon-mail"></span></a>
+                <a class="foot-item" href="https://github.com/riumin" target="_blank"><span class="octicon octicon-mark-github"></span></a>
+                <a class="foot-item" href="http://localhost:4000/feed.xml" target="_blank"><span class="octicon octicon-rss"></span></a>
+                <a class="foot-item" href="http://localhost:4000/link/"><span class="octicon octicon-link-external"></span></a>
+                &nbsp;
+                <a href="https://github.com/bit-ranger"><span class="word-keep">Original designed by bit-ranger, appreciation.<a src=""></a></span></a>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://localhost:4000/static/js/script.js"></script>
+    <script type="text/javascript" src="http://localhost:4000/static/js/gitment.js"></script>
+    <script type="text/javascript" src="http://localhost:4000/static/js/post.js"></script>
+    
+
+<!-- d3 function plot cdn-->
+    <script src="https://unpkg.com/d3@3/d3.min.js"></script>
+    <script src="https://unpkg.com/function-plot@1/dist/function-plot.js"></script>
+
+        <!-- katex-element works as the supplenment of katex im remote CDN, the plugin stored in repository-->
+        <script src="https://riumin.github.io/blogEspresso/plugins/katex-element-master/dist/katex-element.umd.js" type="module"></script>
+
+        <!-- here store katex from cdn to repo and redirect the address to repo on July 24, 2019-->
+        <link rel="stylesheet" href="https://riumin.github.io/blogEspresso/plugins/katex@0.10.2/dist/katex.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+            <!-- The loading of KaTeX is deferred to speed up page rendering -->
+        <script defer src="https://riumin.github.io/blogEspresso/plugins/katex@0.10.2/dist/katex.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+            <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://riumin.github.io/blogEspresso/plugins/katex@0.10.2/dist/contrib/auto-render.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+    
+        <!-- here store mermaid from cdn into repo and redirect the address to repo on July 22, 2019 -->
+        <script src="https://riumin.github.io/blogEspresso/plugins/mermaid@7.1.0/dist/mermaid.js"></script>
+    
+        <!-- algolia cdn -->
+        <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+</body>
+
+</html>
