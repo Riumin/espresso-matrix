@@ -37,7 +37,7 @@ gitment:
     client_id: 8fbd8862961c7e38a801
     client_secret: 14294c43bfd66aacf8b14f6eb29a4649012ac179
 
-url: "https://riumin.github.io/blogEspresso"
-imgrepo: "https://riumin.github.io/blogEspresso/static/img"
-plgrepo: "https://riumin.github.io/blogEspresso/plugins"
+url: "https://riumin.net"
+imgrepo: "https://riumin.github.io/blog.git.d/static/img"
+plgrepo: "https://riumin.github.io/blog.git.d/plugins"
 docrepo: "https://riumin.github.io/PostHub"
