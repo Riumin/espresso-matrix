@@ -17,3 +17,5 @@ github_username:  Riumin
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: katex
