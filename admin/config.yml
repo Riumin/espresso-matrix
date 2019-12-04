@@ -3,8 +3,8 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-  name: github
-  repo: Riumin/blog.git.d
+  # name: github
+  # repo: Riumin/blog.git.d
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
