@@ -1,9 +1,0 @@
-entries:
-    wiki:xxx:
-        type: misc
-        title: Geology --- {Wikipedia}{,} The Free Encyclopedia
-        year: '2019'
-        url: https://en.wikipedia.org/w/index.php?title=Geology&oldid=907278395
-        note: '[Online; accessed 21-August-2019]'
-        author:
-        -   last: '{Wikipedia contributors}'
