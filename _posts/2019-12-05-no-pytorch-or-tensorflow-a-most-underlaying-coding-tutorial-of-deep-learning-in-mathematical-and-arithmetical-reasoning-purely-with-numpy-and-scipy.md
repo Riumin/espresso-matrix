@@ -32,8 +32,8 @@ To store all the weight for every neurons in the present  layer  to be calculate
 
 $$\mathrm{W}_{M\times n}=
 \begin{bmatrix}
-w_{1,1} & \cdots & w_{1,n} \
-\vdots & \ddots  & \vdots \
+w_{1,1} & \cdots & w_{1,n} \\
+\vdots & \ddots  & \vdots \\
 w_{M,1} & \cdots & w_{M,n}
 \end{bmatrix}$$
 
@@ -118,23 +118,23 @@ test = np.random.randn(10000)
 $$\begin{aligned}
 \frac{\partial S_k}{\partial v_i} 
 &= \begin{cases}
-\displaystyle{\frac{\partial S_k}{\partial v_k} } &,i=k \ \ 
+\displaystyle{\frac{\partial S_k}{\partial v_k} } &,i=k \\ \\ 
 \displaystyle{\frac{\partial S_k}{\partial v_i}} &,i\neq k
-\end{cases} &, S_k=S(v_k), i,k\in {1,\cdots,n} \ \
+\end{cases} &, S_k=S(v_k), i,k\in {1,\cdots,n} \\ \\
 &=\begin{cases}
-\frac{\frac{\partial\exp v_k}{\partial v_k}\cdot \displaystyle{\sum_n \exp v_n} - \exp v_k \cdot \partial \displaystyle{\Big(\sum_n \exp v_n}\Big)/\partial v_k}{\displaystyle{\Big(\sum_n \exp v_n}\Big)^2}  &,i=k\
+\frac{\frac{\partial\exp v_k}{\partial v_k}\cdot \displaystyle{\sum_n \exp v_n} - \exp v_k \cdot \partial \displaystyle{\Big(\sum_n \exp v_n}\Big)/\partial v_k}{\displaystyle{\Big(\sum_n \exp v_n}\Big)^2}  &,i=k\\
 -\frac{\exp v_k}{\displaystyle{\Big(\sum_n \exp v_n}\Big)^2} \cdot \frac{\partial \displaystyle{\sum_n \exp v_n}}{\partial v_i} &, i\neq k
-\end{cases}\ \
+\end{cases}\\ \\
 &=\begin{cases} 
-\frac{\exp v_k\cdot \displaystyle{\sum_n \exp v_n} - \exp^2 v_k}{\Big(\displaystyle{\sum_n \exp v_n}\Big)^2} &,i=k \ 
+\frac{\exp v_k\cdot \displaystyle{\sum_n \exp v_n} - \exp^2 v_k}{\Big(\displaystyle{\sum_n \exp v_n}\Big)^2} &,i=k \\ 
 -\frac{\exp v_k}{\displaystyle{\Big(\sum_n \exp v_n}\Big)^2} \cdot \exp v_i &,i \neq k 
- \end{cases} \ \
+ \end{cases} \\ \\
 &=\begin{cases} 
-\frac{\exp v_i}{\displaystyle{\sum_n \exp v_n}}\bigg(1-\frac{\exp v_i}{\displaystyle{\sum_n \exp v_n}}\bigg) &,i=k \ 
+\frac{\exp v_i}{\displaystyle{\sum_n \exp v_n}}\bigg(1-\frac{\exp v_i}{\displaystyle{\sum_n \exp v_n}}\bigg) &,i=k \\ 
 -\frac{\exp v_k}{\displaystyle{\sum_n \exp v_n}}\cdot\frac{\exp v_i}{\displaystyle{\sum_n \exp v_n}}&,i \neq k 
-\end{cases} \ \
+\end{cases} \\ \\
 &=\begin{cases} 
-S_i(1-S_i) &,  i=k\ \
+S_i(1-S_i) &,  i=k\\ \\
 -S_k\cdot S_i&,i\neq k
 \end{cases}
 \end{aligned}$$
@@ -173,7 +173,7 @@ test = np.random.randn(100)
 * gradient: 
 
 $$\begin{aligned}
-\frac{\partial L}{\partial y_k}&=\frac{1}{N}\frac{\partial(d_k-y_k)}{\partial y_k} \
+\frac{\partial L}{\partial y_k}&=\frac{1}{N}\frac{\partial(d_k-y_k)}{\partial y_k} \\
 &=-\frac{1}{N}
 \end{aligned}$$
 
@@ -186,17 +186,17 @@ $$\begin{aligned}
 * * $$\begin{aligned}
     \frac{\partial L}{\partial y}
     &=\begin{cases}
-    \displaystyle{\frac{\partial (-\log y)}{\partial y}} &,d=1 \ \
+    \displaystyle{\frac{\partial (-\log y)}{\partial y}} &,d=1 \\ \\
     \displaystyle{\frac{\partial \big(-\log (1-y)\big)}{\partial y}} &,d=0
-    \end{cases} \ \
+    \end{cases} \\ \\
     &=\begin{cases}
-    -1/y &,d=1 \ \
+    -1/y &,d=1 \\ \\
     1/y &,d=0
     \end{cases}
     \end{aligned}$$
 * * $$\begin{aligned}
     \frac{\partial L}{\partial y_i}
-    &=\frac{\partial (-d_i\log y_i)}{\partial y_i}+\sum_{i\neq k}\frac{\partial (-d_k\log y_k)}{\partial y_i} \
+    &=\frac{\partial (-d_i\log y_i)}{\partial y_i}+\sum_{i\neq k}\frac{\partial (-d_k\log y_k)}{\partial y_i} \\
     &=-\frac{1}{y_i}
     \end{aligned}$$
 
