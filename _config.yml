@@ -19,3 +19,4 @@ github_username:  Riumin
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+mathjax: true
