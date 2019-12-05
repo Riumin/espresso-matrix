@@ -15,18 +15,18 @@ Take a review of [*Neural Network and Deep Learning*](http://neuralnetworksandde
 
 $$\{\mathrm{W}^{(k)}\}=\arg \min L(d_i,y_i)$$
 
-The notes $k$ and $i$ remark the number and order of layers, labels and outputs. You may find $d$ and $y$ another marks as $y$ and $\hat{y}$ in most other text aimed at the expression of expected \`$y$' and factually calculated \`$\hat{y}$'. Yet here we deploy the former tuple in order not to drive ourselves into confusions.
+The notes $k$ and $i$ remark the number and order of layers, labels and outputs. You may find $d$ and $y$ another marks as $y$ and $\hat{y}$ in most other text aimed at the expression of expected \`$y$' and factually calculated \`$\hat{y}$'. Yet here we deploy the former tuple in order not to drive outselves into confusions.
 
-<!-- <div class=mermaid align=center>
+<div class=mermaid align=center>
 graph LR
 id11(("$y^{(-1)}_1$"))--"$y^{(-1)}_1w_1$"---id2(("$v$"))
 id12(("$y^{(-1)}_2$"))--"$y^{(-1)}_2w_2$"---id2
 id13(("$y^{(-1)}_3$"))--"$y^{(-1)}_3w_3$"---id2
 id2--"$\varphi(v)$"---id3(("y"))
 style id3 fill:#fff,stroke:#fff
-</div> -->
+</div>
 
-```graphviz
+<!-- ```graphviz
 digraph{
 rankdir=LR;
 
@@ -48,7 +48,7 @@ id03->id13[label="f(v13)"]
 id13 -> id21[label="w3"]
 id21 -> id31[label="f(v)"]
 }
-```
+``` -->
 
 All before the reasoning of the so-called $\mathrm W^{(k)}$ shall be a quick look at how the neural network works. The diagram above displays a simplified forward and backward propagation prograss amid a whole neural network. As for a full connection neural network, each neuron is calculated by all the neurons multiplied with a certain weight in the prvious layer, as the following expression states:
 
