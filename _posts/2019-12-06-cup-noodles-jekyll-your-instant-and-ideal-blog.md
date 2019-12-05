@@ -23,29 +23,29 @@ Here will be a step-by-step manual. The manual aimed at helping you with a fast 
 
 <div class="mermaid" align="center">
 stateDiagram
-	\[\*] --> initialization
+	[*] --> initialization
 	initialization --> deployment
 	initialization --> implementation
 	implementation --> deployment
 	deployment --> CMS
-	deployment --> \[\*]
-	CMS --> \[\*]
+	deployment --> [*]
+	CMS --> [*]
 	state initialization {
-		\[\*] --> Ruby
+		[*] --> Ruby
 		Ruby --> Jekyll
 		Jekyll --> local
-		local -->  \[\*]
+		local -->  [*]
 	}
 	state CMS {
-		\[\*] --> OAuth
+		[*] --> OAuth
 		OAuth --> Netlify
-		Netlify --> \[\*]
+		Netlify --> [*]
 	}
 	state deployment {
-		\[\*] --> GitHub
-		GitHub --> \[\*]
+		[*] --> GitHub
+		GitHub --> [*]
 		GitHub --> DNS
-		DNS --> \[\*]
+		DNS --> [*]
 	}
 </div>
 
