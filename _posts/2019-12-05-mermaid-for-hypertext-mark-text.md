@@ -26,7 +26,7 @@ stateDiagram
     Crash --> [*]
 ```
 
-<div class=mermaid align=center>
+<div class="mermaid" align="center">
 stateDiagram
     [*] --> Still
     Still --> [*]
