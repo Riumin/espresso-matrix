@@ -17,6 +17,6 @@ github_username:  Riumin
 
 # Build settings
 markdown: kramdown
-kramdown:
-  math_engine: mathjax
-mathjax: true
+# kramdown:
+#   math_engine: mathjax
+# mathjax: true

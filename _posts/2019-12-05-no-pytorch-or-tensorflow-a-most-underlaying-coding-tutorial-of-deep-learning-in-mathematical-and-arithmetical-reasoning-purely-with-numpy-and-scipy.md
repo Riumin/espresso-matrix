@@ -14,19 +14,19 @@ Take a review of [*Neural Network and Deep Learning*](http://neuralnetworksandde
 
 $$\{\mathrm{W}^{(k)}\}=\arg \min L(d_i,y_i)$$
 
-The notes $k$ and $i$ remark the number and order of layers, labels and outputs. You may find $d$ and $y$ another marks as $y$ and $\hat{y}$ in most other text aimed at the expression of expected \`$y$' and factually calculated \`$\hat{y}$'. Yet here we deploy the former tuple in order not to drive outselves into confusions.
+The notes $$k$$ and $$i$$ remark the number and order of layers, labels and outputs. You may find $$d$$ and $$y$$ another marks as $$y$$ and $$\hat{y}$$ in most other text aimed at the expression of expected \`$$y$$' and factually calculated \`$$\hat{y}$$'. Yet here we deploy the former tuple in order not to drive outselves into confusions.
 
 <div class=mermaid align=center>
 graph LR
-id11(("$y^{(-1)}_1$"))--"$y^{(-1)}_1w_1$"---id2(("$v$"))
-id12(("$y^{(-1)}_2$"))--"$y^{(-1)}_2w_2$"---id2
-id13(("$y^{(-1)}_3$"))--"$y^{(-1)}_3w_3$"---id2
-id2--"$\varphi(v)$"---id3(("y"))
+id11(("$$y^{(-1)}_1$$"))--"$$y^{(-1)}_1w_1$$"---id2(("$$v$$"))
+id12(("$$y^{(-1)}_2$$"))--"$$y^{(-1)}_2w_2$$"---id2
+id13(("$$y^{(-1)}_3$$"))--"$$y^{(-1)}_3w_3$$"---id2
+id2--"$$\varphi(v)$$"---id3(("y"))
 style id3 fill:#fff,stroke:#fff
 </div>
 
 
-All before the reasoning of the so-called $\mathrm W^{(k)}$ shall be a quick look at how the neural network works. The diagram above displays a simplified forward and backward propagation prograss amid a whole neural network. As for a full connection neural network, each neuron is calculated by all the neurons multiplied with a certain weight in the prvious layer, as the following expression states:
+All before the reasoning of the so-called $$\mathrm W^{(k)}$$ shall be a quick look at how the neural network works. The diagram above displays a simplified forward and backward propagation prograss amid a whole neural network. As for a full connection neural network, each neuron is calculated by all the neurons multiplied with a certain weight in the prvious layer, as the following expression states:
 
 $$v_i=\sum_j w_jy^{(-1)}_j$$
 
@@ -39,7 +39,7 @@ w_{1,1} & \cdots & w_{1,n} \\
 w_{M,1} & \cdots & w_{M,n}
 \end{bmatrix}$$
 
-Obviously the footnotes $M$ and $n$ represent the numbers of neurons in the **present** and **previous** layer. It helps to process the following simplified calculation with a better understanding of how the output from the previous layer comes to be the neurons (say) in the present layer.
+Obviously the footnotes $$M$$ and $$n$$ represent the numbers of neurons in the **present** and **previous** layer. It helps to process the following simplified calculation with a better understanding of how the output from the previous layer comes to be the neurons (say) in the present layer.
 
 $$\mathrm{v}_M=\mathrm{W}_{M\times n}\mathrm{y}^{-}_{n}$$
 
@@ -80,10 +80,10 @@ In this section, it costs a few minutes to review some most common used function
 
 ### sigmoid function(*or*, logistic function)
 
-- defination: $\displaystyle{\frac{1}{1+\exp(-x)}}$
+- defination: $$\displaystyle{\frac{1}{1+\exp(-x)}}$$
 - gradient: \
-with $y$ as the activated neural nodes from $v$ for output of the present layer, the gradient lies: 
-$\displaystyle{\frac{\partial y}{\partial v}=y\cdot(1-y)}$
+with $$y$$ as the activated neural nodes from $$v$$ for output of the present layer, the gradient lies: 
+$$\displaystyle{\frac{\partial y}{\partial v}=y\cdot(1-y)}$$
 
 > The python module `scipy` provides a pre-defined sigmoid function.
 
@@ -95,8 +95,8 @@ from scipy.special import expit
 
 ### Recitified Unit Linear function(*in short*, ReLU function) 
 
-- defination: $\displaystyle{y=\begin{cases}v &, v>0\\ 0 &,v\leqslant 0\end{cases}}$
-- gradient: $\displaystyle{\frac{\partial y}{\partial v}=\begin{cases}1 &, v>0\\ 0 &,v\leqslant 0\end{cases}}$, *or* **heaviside step function**
+- defination: $$\displaystyle{y=\begin{cases}v &, v>0\\ 0 &,v\leqslant 0\end{cases}}$$
+- gradient: $$\displaystyle{\frac{\partial y}{\partial v}=\begin{cases}1 &, v>0\\ 0 &,v\leqslant 0\end{cases}}$$, *or* **heaviside step function**
 
 > There are a few methods to achieve ReLU, yet each plays a different efficiency. The approach `numpy.maximum` tested the best.
 
@@ -119,7 +119,7 @@ test = np.random.randn(10000)
 
 ### softmax function
 
-- defination: $\displaystyle{S(y_k)=\frac{\exp y_k}{\displaystyle{\sum_n \exp y_n}}}$
+- defination: $$\displaystyle{S(y_k)=\frac{\exp y_k}{\displaystyle{\sum_n \exp y_n}}}$$
 - gradient:
 
 $$\begin{aligned}
@@ -173,7 +173,7 @@ test = np.random.randn(100)
 
 ### variance loss function
 
-- defination: $\displaystyle{L=\frac{1}{N}\sum_i (d_i-y_i)^2},i=1,\dots,N$
+- defination: $$\displaystyle{L=\frac{1}{N}\sum_i (d_i-y_i)^2},i=1,\dots,N$$
 - gradient: 
 
 $$\begin{aligned}
@@ -184,8 +184,8 @@ $$\begin{aligned}
 ### cross entropy loss function
 
 - defination:
-- - $L=\displaystyle{-d\log y-(1-d)\log(1-y)}$
-- - $L=\displaystyle{\sum_i -d_i\log y_i}$
+- - $$L=\displaystyle{-d\log y-(1-d)\log(1-y)}$$
+- - $$L=\displaystyle{\sum_i -d_i\log y_i}$$
 - gradient:
 - - $$\begin{aligned}
 \frac{\partial L}{\partial y}
@@ -216,7 +216,7 @@ $$\begin{aligned}
 \frac{\partial L}{\partial w_{i,j}}	&=	\frac{\partial v_i}{\partial w_{i,j}}\frac{\partial y_i}{\partial v_i}\frac{\partial L}{\partial y_i}
 \end{aligned}$$
 
-> Replace those terms with proper equitions and calculate till $\displaystyle{\frac{\partial L}{\partial w_{i,j}}(\mathrm{d,y})}$
+> Replace those terms with proper equitions and calculate till $$\displaystyle{\frac{\partial L}{\partial w_{i,j}}(\mathrm{d,y})}$$
 
 - the hidden layer:
 
