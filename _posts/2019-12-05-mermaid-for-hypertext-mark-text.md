@@ -15,7 +15,8 @@ Mermaid is a graphicalization tool by javascripts implenmented in Hypertext Mark
 
 # A test for mermaid script 
 
-```
+```html
+<div class="mermaid" align="center">
 stateDiagram
     [*] --> Still
     Still --> [*]
@@ -24,6 +25,7 @@ stateDiagram
     Moving --> Still
     Moving --> Crash
     Crash --> [*]
+</div>
 ```
 
 <div class="mermaid" align="center">
