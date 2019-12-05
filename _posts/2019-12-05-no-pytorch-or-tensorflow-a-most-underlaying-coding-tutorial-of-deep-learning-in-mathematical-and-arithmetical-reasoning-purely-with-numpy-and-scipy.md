@@ -88,8 +88,8 @@ from scipy.special import expit
 
 ### Recitified Unit Linear function(_in short_, ReLU function)
 
-* defination: $$\displaystyle{y=\begin{cases}v &, v>0\ 0 &,v\leqslant 0\end{cases}}$$
-* gradient: $$\displaystyle{\frac{\partial y}{\partial v}=\begin{cases}1 &, v>0\ 0 &,v\leqslant 0\end{cases}}$$, _or_ **heaviside step function**
+* defination: $$\displaystyle{y=\begin{cases}v &, v>0\\ 0 &,v\leqslant 0\end{cases}}$$
+* gradient: $$\displaystyle{\frac{\partial y}{\partial v}=\begin{cases}1 &, v>0\\ 0 &,v\leqslant 0\end{cases}}$$, _or_ **heaviside step function**
 
 > There are a few methods to achieve ReLU, yet each plays a different efficiency. The approach `numpy.maximum` tested the best.
 
