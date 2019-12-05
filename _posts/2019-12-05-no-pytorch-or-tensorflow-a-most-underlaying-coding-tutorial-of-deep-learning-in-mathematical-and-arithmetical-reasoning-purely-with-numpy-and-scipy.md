@@ -15,7 +15,7 @@ Take a review of [*Neural Network and Deep Learning*](http://neuralnetworksandde
 
 $$\{\mathrm{W}^{(k)}\}=\arg \min L(d_i,y_i)$$
 
-The notes $k$ and $i$ remark the number and order of layers, labels and outputs. You may find $d$ and $y$ another marks as $y$ and $\hat{y}$ in most other text aimed at the expression of expected \`$y$' and factually calculated \`$\hat{y}$'. Yet here we deploy the former tuple in order not to drive outselves into confusions.
+The notes $k$ and $i$ remark the number and order of layers, labels and outputs. You may find $d$ and $y$ another marks as $y$ and $\hat{y}$ in most other text aimed at the expression of expected \`$y$' and factually calculated \`$\hat{y}$'. Yet here we deploy the former tuple in order not to drive ourselves into confusions.
 
 <!-- <div class=mermaid align=center>
 graph LR
