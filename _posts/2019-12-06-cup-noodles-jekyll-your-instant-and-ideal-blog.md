@@ -4,16 +4,6 @@ title: 'Cup noodles Jekyll: your instant and ideal blog'
 date: 2019-12-05T17:16:23.043Z
 comments: 'true'
 ---
-> This manual involves the following contents you may be awared of:
->
-> * terminal shell
-> * Git
-> * Git remote repository like Github or GitLab (optional)
-> * paid domain name and DNS service (optional)
-> * Netlify Content Management System (optional)
->
-> It's all right if you have no idea of all these above, but it's recommanded that you learned about the required first. There will be no detailed introduction to all these things for your just following and making it.
-
 You may be a geek mad in crafting something and certainly a personal blog included, or just simply feel like to have somewhere to  write  about everything about you without anything else. You may get tired of these websites which provide you an account, a user interface to write, some themes to assign your posting sites a little personality, etc. What contributes best could be just a little knowledge on computer network, websites - well, either makes no difference if not. Whatever, you are eager to own a personal blog or even website from content to server, yet no idea strikes you what to handle with first. **Then you shall read about this article about everything when I established this website you are accessing at present**, which aimed at guiding you an instant website with almost everything equipped, like an online editor, visual mathematical expressions, some graphical tools (say) and so on. 
 
 There are plenty of **static website generators** across the Internet, like Hexo, Hugo, etc. They are based on varying syntax and compiling language. If no special orientation of you for a choice, then let's get started with Jekyll: the static website generator deployed for the one you are accessing at present.
@@ -49,6 +39,16 @@ stateDiagram
 		DNS --> [*]
 	}
 </div>
+
+> This manual involves the following contents you may be awared of:
+>
+> * terminal shell
+> * Git
+> * Git remote repository like Github or GitLab (optional)
+> * paid domain name and DNS service (optional)
+> * Netlify Content Management System (optional)
+>
+> It's all right if you have no idea of all these above, but it's recommanded that you learned about the required first. There will be no detailed introduction to all these things for your just following and making it.
 
 # Initialization: generate a local site with Jekyll
 
