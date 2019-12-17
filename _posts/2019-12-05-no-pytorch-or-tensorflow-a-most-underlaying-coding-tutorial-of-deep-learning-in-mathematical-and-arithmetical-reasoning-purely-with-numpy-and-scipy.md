@@ -4,6 +4,7 @@ title: >-
   No pytorch or tensorflow: a most underlaying coding tutorial of deep learning
   in mathematical and arithmetical  reasoning, purely with numpy and scipy
 date: 2019-11-29T17:41:56.697Z
+comments: 'true'
 ---
 There are ample and thus enough 
 
