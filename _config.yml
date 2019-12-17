@@ -24,3 +24,4 @@ markdown: kramdown
 algolia:
    application_id: D9U8JHZF2E
    index_name: Evergreen of Hall
+   search_only_api_key: e1a764122ebfa158670270919a95b30b
