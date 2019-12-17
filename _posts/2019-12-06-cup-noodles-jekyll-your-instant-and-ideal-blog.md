@@ -2,6 +2,7 @@
 layout: post
 title: 'Cup noodles Jekyll: your instant and ideal blog'
 date: 2019-12-05T17:16:23.043Z
+comments: 'true'
 ---
 > This manual involves the following contents you may be awared of:
 >
