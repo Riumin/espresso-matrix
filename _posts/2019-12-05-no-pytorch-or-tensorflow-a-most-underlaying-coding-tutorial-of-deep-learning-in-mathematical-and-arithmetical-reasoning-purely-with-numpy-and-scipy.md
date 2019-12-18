@@ -55,7 +55,7 @@ In this section, it costs a few minutes to review some most common used function
 * * Recitified Unit Linear function(_in short_, ReLU function) 
 * * softmax function
 * two loss function(_or_, cost function):
-* * variance loss function
+* * mean square error loss function or MSE loss function
 * * cross entropy function
 * two learning approach (say, _or_, optimization strategy _or_ updating strategy) with backpropagation approach:
 * * stochastic gradient descent(_in short_, SGD)
@@ -168,7 +168,7 @@ test = np.random.randn(100)
 
 ## loss function _or_ cost function
 
-### variance loss function
+### mean square error loss function or MSE loss function
 
 * defination: $$\displaystyle{L=\frac{1}{N}\sum_i (d_i-y_i)^2},i=1,\dots,N$$
 * gradient: 
