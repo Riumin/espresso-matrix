@@ -3,6 +3,9 @@ layout: post
 title: Mermaid for Hypertext Mark Text
 date: 2019-11-27T17:41:56.697Z
 comments: true
+notes: >-
+  A most recommended graphicalization application in the Internet by
+  Javascripts.
 ---
 Mermaid is a graphicalization tool by javascripts implenmented in Hypertext Mark Text, which provides an excellent visual effect in a form of flowchart, gantt, sequence, etc. Since the time when its version 7 published have I deployed it for my websites and blogs. Recently the newest version 8 carry on **state** and **pie** diagram in a much more brilliant graphical items.
 
