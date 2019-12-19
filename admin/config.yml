@@ -7,18 +7,34 @@ backend:
   repo: Riumin/blog.git.d
 media_folder: 'assets/uploads'
 collections:
-  - name: 'blog'
+  - name: 'commentable_blog'
     label: 'Blog'
     folder: '_posts/'
     create: true
+    filter: {field: "comments", value: "true"} 
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Comments', name: 'comments', widget: 'select', options: ['true', 'false'] }
+      - { label: 'Comments', name: 'comments', widget: 'select', options: ["true", "false"] }
+      - { label: 'Notes', name: 'notes', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'incommentable_blog'
+    label: 'Blog'
+    folder: '_posts/'
+    create: true
+    filter: {field: "comments", value: "false"} 
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Comments', name: 'comments', widget: 'select', options: ["true", "false"] }
       - { label: 'Notes', name: 'notes', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'pages'
