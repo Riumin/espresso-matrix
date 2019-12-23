@@ -27,11 +27,11 @@ It could puzzle you with dozens of hypothesis involving varied relation with the
 
 # Individual
 
-The individual contains 4 categorical variables with `Dataset`, `Subnet 1`, `Subnet 2` and `Loss function` included, and 5 quantitive with `Accuracy`, `Step`, `Momentum`, `Batch` and `Epoch` included. Btw. the `Subnet 1` refes to the feature extraction subnet essentially the convolutional neural network and the `Subnet 2` refers to the classifier subnet.
+The individual contains 5 categorical variables with `Dataset`, `Subnet 1`, `Subnet 2`, `Loss function` and `Validation` included, and 5 quantitive with `Accuracy`, `Step`, `Momentum`, `Batch` and `Epoch` included. Btw. the `Subnet 1` refes to the feature extraction subnet essentially the convolutional neural network and the `Subnet 2` refers to the classifier subnet. As for `Validation` the variable comes to be `valid` if the accuracy lies equal or above 97 percent or `invalid` if below.
 
-| Dataset     | Subnet 1    | Subnet 2    | Loss function | Accuracy   | Step       | Momentum   | Batch      | Epoch      |
-| ----------- | ----------- | ----------- | ------------- | ---------- | ---------- | ---------- | ---------- | ---------- |
-| categorical | categorical | categorical | categorical   | quantitive | quantitive | quantitive | quantitive | quantitive |
+| Dataset     | Subnet 1    | Subnet 2    | Loss function | Validation  | Accuracy   | Step       | Momentum   | Batch      | Epoch      |
+| ----------- | ----------- | ----------- | ------------- | ----------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+| categorical | categorical | categorical | categorical   | categorical | quantitive | quantitive | quantitive | quantitive | quantitive |
 
 As the individual collected so far, the following variables are available.
 
@@ -39,16 +39,27 @@ As the individual collected so far, the following variables are available.
 * Subnet 1: shallow/deep
 * Subnet 2: shallow/deep
 * Loss function: MSE
+* Validation: valid/invalid
 * Accuracy: $$[0,1]$$
 * Step: 0.01/0.05/0.1/0.5/0.7
 * Momentum: 0/0.1/0.3/0.5/0.7/0.9
 * Batch: 5/20/50/100
 * Epoch: up to 15 epochs to detect overfitting
 
-# A brief distribution of the variables
+> * Why full epochs recorded instead of the eventual consequence?
+>
+> To balance the efficiency and overfitting during the training, it's assumed an accuracy record of full epochs could reflect the info of the whole process.
 
-There are 
+# A brief distribution of the collected variables
+
+There are in total two sets of data, one of which is collected with a stochastic gradient descent approach (which means  the batch variable of all the individuals is 1) while another without momentum. The reason for the separate and restricted datasets lies that theoretically both momentum and batch (also surnamed mini-batch) appear to be a promosion of the original gradient descent as stochastic optimization and to collect a dataset with every single factor from A to Z just costs terribly much time. It's better to find out the association in a properly simplified conditions as well. 
+
+The fisrt dataset contains 408 individuals in total. With a same dataset, network model and batch, the valid variables include validation,  accuracy, step, momentum and epoch.
+
+The second dataset contains 240 individuals in total. The valid variables include validation, accuracy, step, batch and epochs.
+
+Please refers to 
 
 # Learning rate seems to make the most difference to accuracy
 
-According to the individual of stochastic gradient descent approach, I found out that 
+According to the individual of first dataset, the one by stochastic gradient descent approach, I found out that
