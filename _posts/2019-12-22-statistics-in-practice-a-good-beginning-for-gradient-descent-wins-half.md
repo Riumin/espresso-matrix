@@ -40,7 +40,7 @@ As the individual collected so far, the following variables are available.
 * Subnet 2: shallow/deep
 * Loss function: MSE
 * Validation: valid/invalid
-* Accuracy: $$[0,1]$$
+* Accuracy: $$\[0,1]$$
 * Step: 0.01/0.05/0.1/0.5/0.7
 * Momentum: 0/0.1/0.3/0.5/0.7/0.9
 * Batch: 5/20/50/100
@@ -58,8 +58,17 @@ The fisrt dataset contains 408 individuals in total. With a same dataset, networ
 
 The second dataset contains 240 individuals in total. The valid variables include validation, accuracy, step, batch and epochs.
 
-Please refers to 
+Please check [analytic chart for dataset 1](https://riumin.net/assets/uploads/dataset1.htm) and [analytic chart for dataset 2](https://riumin.net/assets/uploads/dataset2.htm) for detailed chart of distribution and further analysis.
 
 # Learning rate seems to make the most difference to accuracy
 
-According to the individual of first dataset, the one by stochastic gradient descent approach, I found out that
+To figure out what effect the accuracy most, here are three hypothesis for the dataset 1 as well as the stochastic gradient descent approach.
+
+- The learning rate has an association with the accuracy.
+- The momentum has an association with the accuracy.
+- The epochs has an association with the accuracy.
+
+According to the individual of first dataset, the one by stochastic gradient descent approach, the analysis by SPSS illustrated that the chi-square test of `validation` and `step` raised up to be $$327.931^{a}$$ with a significance level of $$0$$, whereas the other two tests, `validation` and `momentum` and `validation` and `epoch`, came out to be $$8.798^{a}$$ with a significance level of $$0.117$$ and $$0.092^{a}$$ with a significance level of $$1$$.
+
+The tests reflect that the variable `step` or essentially the learning rate has an absolute association with the accuracy. Momentum do not have an obvious association with the accuracy,  as the significance level comes to be $$0.117$$ where the hypothesis should be rejected. Either is that of `validation` and `epochs`.
+
