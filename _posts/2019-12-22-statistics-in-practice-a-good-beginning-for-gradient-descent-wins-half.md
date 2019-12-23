@@ -9,6 +9,7 @@ Surely there have been plenty of stochastic optimization approaches for the trai
 During my first experiment of developing a neural network, which is required to be established purely from the most fundamental operation like matrices calculating, 2-dimension signal convolving, etc., to recognize hand-written numbers in an accuracy of over 97 percent, phenomenons like data overflow, overfitting and inefficiencient training came out one after another. Whatever, the negative effect upon the accuracy of recognizing testing data could cause unexpected consequence and redundant work.
 
 > Everything about the convolutional neural network to recognize hand-written numbers appears to be an analog of that in *Neural Network and Deep Learning* by Michael Nielsen. As for a detailed documenration of it, it is recommended to take a view of the article or [access the site](neuralnetworkanddeeplearning.com). Here will be no more detalied illustration of the model except for the following factors in brief.
+>
 > * A neural network with a feature extraction subnet, essentially convolutional neural network, and a classifier subnet
 > * Gradient descent as an approach of stochastic optimization with backpropagation algorithms to propagate backward the gradients in respect of kernels or weight matrices
 > * Momentum algorithm as the promotion of gradient descent
@@ -22,3 +23,32 @@ After some time of testing, it came to be the following phenomenons:
 * When a deeper network developed, the growth of accuracy seemed to be faster.
 * As the epoch of training passed, most of the time the accuracy kept growing till high stable while sometimes the accuracy could decrease continously.
 
+It could puzzle you with dozens of hypothesis involving varied relation with the the accuracy of the model. However, an approach coming out with ease might be just to test the model in different learningg rate, batch, etc. and to collect each test as an individual for test. It's really easy with open source machine learning framework like `tensorflow` or `pytorch` and applicatioon for statistical analysis. As for me it comes out to be `pytorch` and `SPSS` by IBM, which is developed with java and provides full functionality for statistical analysis.
+
+# Individual
+
+The individual contains 4 categorical variables with `Dataset`, `Subnet 1`, `Subnet 2` and `Loss function` included, and 5 quantitive with `Accuracy`, `Step`, `Momentum`, `Batch` and `Epoch` included. Btw. the `Subnet 1` refes to the feature extraction subnet essentially the convolutional neural network and the `Subnet 2` refers to the classifier subnet.
+
+| Dataset     | Subnet 1    | Subnet 2    | Loss function | Accuracy   | Step       | Momentum   | Batch      | Epoch      |
+| ----------- | ----------- | ----------- | ------------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+| categorical | categorical | categorical | categorical   | quantitive | quantitive | quantitive | quantitive | quantitive |
+
+As the individual collected so far, the following variables are available.
+
+* Dataset: MNIST
+* Subnet 1: shallow/deep
+* Subnet 2: shallow/deep
+* Loss function: MSE
+* Accuracy: $$[0,1]$$
+* Step: 0.01/0.05/0.1/0.5/0.7
+* Momentum: 0/0.1/0.3/0.5/0.7/0.9
+* Batch: 5/20/50/100
+* Epoch: up to 15 epochs to detect overfitting
+
+# A brief distribution of the variables
+
+There are 
+
+# Learning rate seems to make the most difference to accuracy
+
+According to the individual of stochastic gradient descent approach, I found out that 
