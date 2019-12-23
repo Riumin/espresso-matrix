@@ -80,4 +80,8 @@ There is statistical negative correlation between learning rate and accuracy, wh
 
 # as batch gradient descent
 
-#
+# Conclusion
+
+The statistical analysis above seems to generate the answers to those hypotheses in the very begining. Momentum and epoch have little association with the  accuracy. Learning rate always plays a \'significant' role in both stochastic and batch gradient descent. A smaller learning rate is better than a greater for stochastic gradient descent while there is a trade-off between learning rate and batch for batch gradient descent.
+
+It could be a little funny to prompt the accuracy for $$0.1$$ more percentage, yet the individuals for a neural network in practice could be millions. It's far away enough to achieve an accuracy of $$0.97$$ outside of laboratory. Whatever, a littler more efficiency plays well. Who could get stubborn on  stochastic gradient descent with redundant  calculation in contrast with a faster batch gradient descent?
