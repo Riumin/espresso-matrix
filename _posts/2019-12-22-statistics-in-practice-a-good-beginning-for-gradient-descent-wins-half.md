@@ -29,9 +29,13 @@ It could puzzle you with dozens of hypothesis involving varied relation with the
 
 The individual contains 5 categorical variables with `Dataset`, `Subnet 1`, `Subnet 2`, `Loss function` and `Validation` included, and 5 quantitive with `Accuracy`, `Step`, `Momentum`, `Batch` and `Epoch` included. Btw. the `Subnet 1` refes to the feature extraction subnet essentially the convolutional neural network and the `Subnet 2` refers to the classifier subnet. As for `Validation` the variable comes to be `valid` if the accuracy lies equal or above 97 percent or `invalid` if below.
 
-| Dataset     | Subnet 1    | Subnet 2    | Loss function | Validation  | Accuracy   | Step       | Momentum   | Batch      | Epoch      |
-| ----------- | ----------- | ----------- | ------------- | ----------- | ---------- | ---------- | ---------- | ---------- | ---------- |
-| categorical | categorical | categorical | categorical   | categorical | quantitive | quantitive | quantitive | quantitive | quantitive |
+| Dataset     | Subnet 1    | Subnet 2    | Loss function | Validation  |
+| ----------- | ----------- | ----------- | ------------- | ----------- |
+| categorical | categorical | categorical | categorical   | categorical |
+
+| Accuracy   | Step       | Momentum   | Batch      | Epoch      |
+| ---------- | ---------- | ---------- | ---------- | ---------- |
+| quantitive | quantitive | quantitive | quantitive | quantitive |
 
 As the individual collected so far, the following variables are available.
 
