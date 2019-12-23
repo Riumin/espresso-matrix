@@ -60,7 +60,7 @@ The second dataset contains 240 individuals in total. The valid variables includ
 
 Please check [analytic chart for dataset 1](https://riumin.net/assets/uploads/dataset1.htm) and [analytic chart for dataset 2](https://riumin.net/assets/uploads/dataset2.htm) for detailed chart of distribution and further analysis.
 
-# Learning rate seems to make the most difference to accuracy
+# Learning rate  makes the most difference to accuracy as for stochastic gradient descent.
 
 To figure out what effect the accuracy most, here are three hypothesis for the dataset 1 as well as the stochastic gradient descent approach.
 
@@ -70,5 +70,14 @@ To figure out what effect the accuracy most, here are three hypothesis for the d
 
 According to the individual of first dataset, the one by stochastic gradient descent approach, the analysis by SPSS illustrated that the chi-square test of `validation` and `step` raised up to be $$327.931^{a}$$ with a significance level of $$0$$, whereas the other two tests, `validation` and `momentum` and `validation` and `epoch`, came out to be $$8.798^{a}$$ with a significance level of $$0.117$$ and $$0.092^{a}$$ with a significance level of $$1$$.
 
-The tests reflect that the variable `step` or essentially the learning rate has an absolute association with the accuracy. Momentum do not have an obvious association with the accuracy,  as the significance level comes to be $$0.117$$ where the hypothesis should be rejected. Either is that of `validation` and `epochs`.
+The tests reflect that the variable `step` or essentially the learning rate has an absolute association with the accuracy. Momentum do not have an obvious association with the accuracy,  as the significance level comes to be $$0.117$$ where the hypothesis should be rejected. Either is that of `validation` and `epochs`. Even thought it felt that the accuracy tended to be unstable as the epoch grew under different factors, it did have little association with the accuracy.
 
+# Is it better to set a smaller learning rate for stochastic gradient descent?
+
+To get a further understanding of what took places between the learning rate and the accuracy, I took a correlate analysis between those two factors. The two-tailed Pearson correlation coefficient came to be $$-0.764^{**}$$ and the two-tailed Spearman correlation coefficient came to be $$-0.619^{**}$$.
+
+There is statistical negative correlation between learning rate and accuracy, which means it's better to set a small learning rate to get a better accuracy. However, there could be a learning rate much smaller than the tested $$0.01$$, which could cause  inefficient training. Who could simply reject the hypothesis that a smaller learning rate is just to prevent overfitting?
+
+# as batch gradient descent
+
+#
