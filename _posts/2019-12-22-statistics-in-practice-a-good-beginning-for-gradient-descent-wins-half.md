@@ -33,8 +33,6 @@ The individual contains 4 categorical variables with `Dataset`, `Subnet 1`, `Sub
 | ----------- | ----------- | ----------- | ------------- |
 | categorical | categorical | categorical | categorical   |
 
-<br/>
-
 | Accuracy   | Step       | Momentum   | Batch      | Epoch      |
 | ---------- | ---------- | ---------- | ---------- | ---------- |
 | quantitive | quantitive | quantitive | quantitive | quantitive |
@@ -137,6 +135,11 @@ To have a better understanding of how those factors correlate, the crosstab(plea
 
 - Segmented quarter section of accuracy in dataset 1
 
+![](/assets/uploads/dataset1.step-accuracy.jpg)
+
+![](/assets/uploads/dataset1.momentum-accuracy.jpg)
+
+
 |Grid of accuracy in dataset 1|quarter|
 |:-:|:-:|
 |$$[\sim,0.09820)$$|1|
@@ -145,6 +148,12 @@ To have a better understanding of how those factors correlate, the crosstab(plea
 |$$[0.98545,\sim)$$|4|
 
 - Segmented quarter section of accuracy in dataset 2
+
+![](/assets/uploads/dataset2.step-accuracy.jpg)
+
+![](/assets/uploads/dataset2.batch-accuracy.jpg)
+
+![](/assets/uploads/dataset2.epoch-accuracy.jpg)
 
 |Grid of accuracy in dataset 2|quarter|
 |:-:|:-:|
@@ -173,9 +182,6 @@ It stroke me something wrong with the inner distribution when I take a view of t
 
 - Partial correlation coefficient and its significance level with accuarcy as the contral variables in dataset 1
 
-![](/assets/uploads/dataset1.step-accuracy.jpg)
-
-![](/assets/uploads/dataset1.momentum-accuracy.jpg)
 
 
 |What to do with the following|Step|Momentum|
@@ -185,11 +191,7 @@ It stroke me something wrong with the inner distribution when I take a view of t
 
 - Partial correlation coefficient and its significance level with accuarcy as the contral variables in dataset 2
 
-![](/assets/uploads/dataset2.step-accuracy.jpg)
 
-![](/assets/uploads/dataset2.batch-accuracy.jpg)
-
-![](/assets/uploads/dataset2.epoch-accuracy.jpg)
 
 |What to do with the following|Step|Batch|Epoch|
 |:-:|:-:|:-:|:-:|
