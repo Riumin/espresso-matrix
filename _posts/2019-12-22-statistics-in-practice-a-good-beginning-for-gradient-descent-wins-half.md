@@ -75,7 +75,7 @@ There are plenty of statistical approach for analysing the correlation between  
 
 > When employed for a sample, Pearson correlation coefficient is usually calculated as 
 > 
-> $${\displaystyle r_{xy}={\frac {\sum _{i=1}^{n}(x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}{{\sqrt {\sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}}}{\sqrt {\sum _{i=1}^{n}(y_{i}-{\bar {y}})^{2}}}}}}$$
+> $$\displaystyle r_{xy}=\frac{ \sum _{i=1}^{n}(x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}{\sqrt \sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}\sqrt \sum _{i=1}^{n}(y_{i}-{\bar {y}})^{2}}$$
 > 
 > where:
 > * $$n$$ is sample size
