@@ -33,6 +33,8 @@ The individual contains 4 categorical variables with `Dataset`, `Subnet 1`, `Sub
 | ----------- | ----------- | ----------- | ------------- |
 | categorical | categorical | categorical | categorical   |
 
+<br/>
+
 | Accuracy   | Step       | Momentum   | Batch      | Epoch      |
 | ---------- | ---------- | ---------- | ---------- | ---------- |
 | quantitive | quantitive | quantitive | quantitive | quantitive |
