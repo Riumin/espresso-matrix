@@ -11,7 +11,7 @@ email: tamakazarishino@icloud.com
 description: > # this means to ignore newlines until "baseurl:"
   Why not come and hav'a cup of espresso?
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://https://riumin.github.io/" # the base hostname & protocol for your site
+url: "https://zen-hermann-b2681b.netlify.com/" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  Riumin
 
@@ -22,6 +22,6 @@ markdown: kramdown
 # mathjax: true
 
 algolia:
-   application_id: D9U8JHZF2E
-   index_name: Evergreen of Hall
-   search_only_api_key: e1a764122ebfa158670270919a95b30b
+   application_id: UWR0NZ5MO3
+   index_name: post index
+   search_only_api_key: 2dbcb4e8a4653ddfea503c415186a6cd
