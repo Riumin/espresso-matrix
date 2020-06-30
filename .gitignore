@@ -1,0 +1,9 @@
+admin/
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.sass-chache/
+.vscode/
+.idea/
+.DS_Store
