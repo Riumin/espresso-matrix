@@ -1,27 +1,165 @@
-<header class="site-header">
+<!-- <table style="border: 0px;" class="banner-table">
+    <tr>
+        <td style="text-align: left;" class="left-col">
+            <?xml version="1.0" standalone="no"?>
+            <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+            "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+            width="50.000000pt" height="50.000000pt" viewBox="0 0 50.000000 50.000000"
+            preserveAspectRatio="xMidYMid meet">
+            <metadata>
+            Created by potrace 1.10, written by Peter Selinger 2001-2011
+            </metadata>
+            <g transform="translate(0.000000,50.000000) scale(0.100000,-0.100000)"
+            fill="#000000" stroke="none">
+            <path d="M0 403 l0 -98 24 50 c28 60 66 97 126 124 l45 21 -97 0 -98 0 0 -97z"/>
+            <path d="M192 480 c-55 -34 -65 -85 -32 -177 11 -32 20 -68 20 -81 0 -29 -30
+            -82 -47 -82 -6 0 -14 -4 -17 -9 -4 -5 3 -7 14 -4 13 3 20 0 20 -8 0 -8 3 -24
+            6 -36 9 -34 -22 -30 -40 5 -8 15 -15 22 -16 17 0 -20 31 -55 51 -55 10 0 19
+            -4 19 -10 0 -5 -11 -10 -25 -10 -35 0 -94 56 -121 115 l-24 50 0 -97 0 -98
+            250 0 250 0 0 98 0 97 -24 -50 c-34 -73 -85 -115 -142 -115 -43 0 -44 1 -33
+            22 6 12 12 48 13 80 2 63 8 75 46 80 20 2 26 11 33 48 16 76 2 166 -29 201
+            l-19 22 30 -16 c42 -22 80 -64 104 -117 l21 -45 0 98 0 97 -137 0 c-120 0
+            -142 -3 -171 -20z"/>
+            </g>
+            </svg>
+        </td>
+        <td style="text-align: right;" class="right-col">
+            <table style="border: 0px; display: inline;">
+                <tr>
+                    <td><input type="text" style="width: 10vw;"></td>
+                        {%- for iterate in site.pages -%}
+                            {% unless iterate.category %}
+                                {% if iterate.title %}
+                                    <td>
+                                        <a href="{{ iterate.url | relative_url }}" class="nav-option">{{ iterate.title }}</a>
+                                        <ul id="{{ iterate.title }}"></ul>
+                                    </td>
+                                {% endif %}
+                            {% endunless %}                       
+                        {%- endfor -%}
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table> -->
 
-  <div class="wrapper">
+<div class="left-col">
+    <div class="nav-icon">
+        <a href="{{ site.url }}">
+            <svg width="57" height="57" viewBox="0 0 57 57">
+                    <path class="title-icon" d="M 0.00,28.50
+                            C 0.00,28.50 0.00,57.00 0.00,57.00
+                                0.00,57.00 28.50,57.00 28.50,57.00
+                                28.50,57.00 57.00,57.00 57.00,57.00
+                                57.00,57.00 57.00,28.50 57.00,28.50
+                                57.00,28.50 57.00,0.00 57.00,0.00
+                                57.00,0.00 28.50,0.00 28.50,0.00
+                                28.50,0.00 0.00,0.00 0.00,0.00
+                                0.00,0.00 0.00,28.50 0.00,28.50 Z
+                            M 27.11,3.53
+                            C 27.06,3.59 26.88,3.61 26.75,3.55
+                                26.60,3.50 26.66,3.44 26.87,3.44
+                                27.07,3.42 27.19,3.48 27.11,3.53 Z
+                            M 25.50,3.89
+                            C 23.60,4.35 21.43,5.59 20.22,6.90
+                                18.14,9.12 17.29,11.42 17.29,14.82
+                                17.29,17.54 17.76,19.65 19.19,23.27
+                                20.73,27.25 21.41,29.30 21.56,30.59
+                                21.87,33.08 20.16,36.99 18.62,37.30
+                                18.09,37.41 18.05,37.49 18.05,38.25
+                                18.05,39.31 17.80,39.52 16.61,39.52
+                                14.72,39.52 13.68,40.74 13.68,42.96
+                                13.68,46.30 15.50,48.62 18.14,48.64
+                                19.46,48.64 19.91,48.89 20.50,49.87
+                                20.50,49.87 20.88,50.54 20.88,50.54
+                                20.88,50.54 18.64,50.54 18.64,50.54
+                                18.64,50.54 16.40,50.54 16.40,50.54
+                                16.40,50.54 14.61,49.36 14.61,49.36
+                                11.11,47.04 7.66,43.05 5.91,39.31
+                                4.18,35.62 3.53,32.68 3.53,28.50
+                                3.53,21.51 5.91,15.75 10.83,10.83
+                                14.42,7.24 18.47,5.03 23.37,3.99
+                                24.26,3.80 25.33,3.63 25.74,3.65
+                                26.50,3.65 26.50,3.65 25.50,3.89 Z
+                            M 40.64,6.57
+                            C 42.71,7.71 44.29,8.93 46.26,10.92
+                                49.87,14.55 52.12,18.79 53.14,23.90
+                                53.58,26.16 53.58,30.84 53.14,33.10
+                                52.14,38.15 49.89,42.41 46.36,46.00
+                                44.38,47.99 43.03,49.06 40.85,50.29
+                                39.31,51.19 39.10,51.26 39.25,50.82
+                                39.35,50.58 38.93,50.54 36.02,50.54
+                                36.02,50.54 32.70,50.54 32.70,50.54
+                                32.70,50.54 33.15,49.86 33.15,49.86
+                                34.47,47.92 35.66,42.24 35.49,38.66
+                                35.43,37.45 35.40,37.33 35.00,37.28
+                                34.62,37.22 34.58,37.14 34.69,36.61
+                                34.86,35.78 35.49,34.16 35.78,33.82
+                                36.35,33.08 36.94,32.87 38.38,32.87
+                                40.18,32.87 41.15,32.60 41.84,31.92
+                                42.33,31.41 42.37,31.29 42.33,29.98
+                                42.29,28.82 42.37,28.44 42.71,27.85
+                                43.22,27.00 43.22,26.83 42.81,26.35
+                                42.48,26.01 42.48,25.97 42.98,25.61
+                                43.45,25.29 43.49,25.16 43.38,24.41
+                                43.24,23.43 43.43,23.14 44.50,22.59
+                                45.71,21.96 45.66,21.60 44.00,18.89
+                                43.22,17.59 42.52,16.32 42.45,16.05
+                                42.39,15.81 42.48,15.14 42.65,14.61
+                                42.98,13.66 42.98,13.55 42.65,12.22
+                                42.05,9.58 40.34,6.97 38.38,5.64
+                                37.92,5.34 37.94,5.34 38.66,5.60
+                                39.08,5.78 39.98,6.21 40.64,6.57 Z
+                            M 17.80,40.94
+                            C 18.11,41.15 18.24,41.51 18.33,42.33
+                                18.41,42.92 18.64,44.21 18.85,45.20
+                                19.30,47.37 19.19,47.63 17.84,47.40
+                                16.74,47.21 15.52,46.04 15.20,44.84
+                                14.93,43.87 14.88,42.31 15.10,41.63
+                                15.35,40.81 17.02,40.39 17.80,40.94 Z" />
+            </svg>
+        </a>
+    </div>
+</div>
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<div class="right-col">
+    <div class="nav-searching-bar">
+        <!-- HTML elements for search -->
+        <input type="text" id="search-input" placeholder="Search blog posts..">
+        <ul id="results-container"></ul>
+    </div>
+    
+    <div class="nav-option">
+    <ul>
+        {%- for iterate in site.pages -%}
+        {% unless iterate.category or iterate.title == "About" %}
+        {% if iterate.title %}
+        <li class="nav-option">
+            <a href="{{ iterate.url | relative_url }}" class="nav-option">{{ iterate.title }}</a>
+            <ul id="{{ iterate.title }}" class="dropdown"></ul>
+        </li>
+        {% endif %}
+        {% endunless %}
+        {%- endfor -%}
+        <li class="nav-option">
+            <a href="{{ "/about/" | relative_url }}" class="nav-option">About</a>
+        </li>
+    </ul>
+</div>
+</div>
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
-  </div>
-
-</header>
+{%- for subiterate in site.pages -%}
+    {% if subiterate.category %}
+        <script>
+            var node = document.createElement("LI");
+            var ref = document.createElement("A");
+            var textnode = document.createTextNode("{{ subiterate.title }}");
+            ref.appendChild(textnode);
+            node.appendChild(ref);
+            ref.setAttribute('href','{{ subiterate.url }}')
+            ref.setAttribute('class','nav-subpage')
+            document.getElementById("{{ subiterate.category }}").appendChild(node);
+        </script>
+    {% endif %}
+{%- endfor -%}

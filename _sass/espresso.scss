@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+// the default settting
+
+
+// color config
+$lightRoasts:       #cf9479;
+$mediumRoasts:      #a76258;
+$medium-darkRoasts: #8c4646;
+$darkRoasts:        #3f2622;
+// $darkRoasts:        #1a0800fa;
+$bodyBackground:    $mediumRoasts;
+$articleBackground: #ffffff;
+$basicFontColor:    #ffffff;
+$headerBackground:  $darkRoasts;
+$footerBackground:  $darkRoasts;
+// color config ends
+
+// import other partials
+
+@import
+    "espresso/layout",
+    "espresso/design",
+    "espresso/general",
+    "espresso/code"
+;

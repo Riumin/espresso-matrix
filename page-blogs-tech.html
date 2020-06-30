@@ -1,0 +1,38 @@
+---
+layout: page
+title: Cyber Tech
+id: tech
+category: Blogs
+permalink: /blogs/tech
+---
+
+<div class="general-page">
+    <div class="path-banner">
+        <span class="fa fa-home" aria-hidden="true"> / </span>
+        {% if page.category %}
+            <span>{{ page.category | escape }} / </span>
+            <span>{{ page.title | escape }}</span>
+        {% else %}
+            <span>{{ page.title | escape }}</span>
+        {% endif %}
+    </div>
+    <h1 class="page-title">
+        <!-- {% if page.category %}
+        <span>{{ page.category }}</span> /
+        {% endif %} -->
+    
+        {% if page.title %}
+            <span>{{ page.title }}</span>
+        {% endif %}
+    </h1>
+    
+    {%- for iterate in site.posts -%}
+        {% if iterate.category == page.id %}
+            <div class="page-display-iterate">
+                <h2><a href="{{ iterate.url | relative_url }}">{{ iterate.title }}</a></h2>
+                <div><span>{{ iterate.date }}</span> | <span>{{ iterate.tags }}</span></div>
+                <div>{{ iterate.excerpt }}</div>
+            </div>
+        {% endif %}
+    {%- endfor -%}
+</div>

@@ -1,37 +1,63 @@
-<footer class="site-footer">
-  <div class="wrapper">
+<div class="announcement">{{ site.announcement }}</div>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+<!-- <table style="border: 0px;" class="banner-table">
+    <tr>
+        <td style="width: 15vw;" class="spacer"></td>
+        <td style="width: 30vw;">
+            <h2 style="font-family: suwa; font-size: 150%;">Identity</h2>
+            <ul class="id-list">
+                <li>
+                {%- if site.title -%}
+                    <span class="site-title" style="font-size: 150%;">{{ site.title | escape }}</span>
+                {%- endif -%}
+                {%- if site.author -%}
+                    <span class="site-author" style="font-size: 150%;">&emsp;by&emsp;{{ site.author | escape }} </span>
+                {%- endif -%}
+                </li>
+            </ul>
+        </td>
+        <td style="width: 10vw;" class="spacer"></td>
+        <td style="width: 30vw;">
+            <h2 style="font-family: Minecrafter">Contact me</h2>
+            <ul class="contact-list">
+                {%- if site.email -%}
+                    <li><a href="{{ site.email }}">{{ site.email }}</a></li>
+                {%- endif -%}
+        
+                {%- if site.github -%}
+                    <li><a href="{{ site.github | prepend: "https://github.com/" }}">{{ site.github }}</a></li>
+                {%- endif -%}
+            </ul>
+        </td>
+        <td style="width: 15vw;" class="spacer"></td>
+    </tr>
+</table> -->
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+<div class="footer">
+<div>
+    <h2 style="font-family: suwa; font-size: 150%;">Identity</h2>
+    <ul class="id-list">
+        <li>
+        {%- if site.title -%}
+            <span class="site-title" style="font-size: 150%;">{{ site.title | escape }}</span>
+        {%- endif -%}
+        {%- if site.author -%}
+            <span class="site-author" style="font-size: 150%;">&emsp;by&emsp;{{ site.author | escape }} </span>
+        {%- endif -%}
+        </li>
+    </ul>
+</div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+<div>
+    <h2 style="font-family: Minecrafter">Contact me</h2>
+    <ul class="contact-list">
+        {%- if site.email -%}
+            <li><a href="{{ site.email }}">{{ site.email }}</a></li>
+        {%- endif -%}
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
+        {%- if site.github -%}
+            <li><a href="{{ site.github | prepend: "https://github.com/" }}">{{ site.github }}</a></li>
+        {%- endif -%}
+    </ul>
+</div>
+</div>

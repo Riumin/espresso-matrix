@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        {%- include head.html -%}
+        {%- include bkgimg.html -%}
+    </head>
+    <body>
+        <header>
+            {%- include header.html -%}
+        </header>
 
-  {% include head.html %}
+        <!-- <div class="article">
+            {%- include build-info.html -%}
+        </div> -->
 
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
         {{ content }}
-      </div>
-    </div>
+        
+        <footer>
+            {%- include footer.html -%}
+        </footer>
 
-    {% include footer.html %}
-
-    <script id="dsq-count-scr" src="//riumin.disqus.com/count.js" async></script>
-  </body>
+        {%- include render.html -%}
+        {%- include animation.html -%}
+    </body>
 </html>

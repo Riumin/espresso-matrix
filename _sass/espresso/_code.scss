@@ -1,0 +1,25 @@
+$codeBlockHorizontalMargin: 25px;
+$codeBlockVerticalMargin: 5px;
+$codeBlockHorizontalPadding: 10px;
+$codeBlockVerticalPadding: 1px;
+// $inlineCodePadding: 1px;
+
+code {
+  font-family: mono-ubuntu-bold;
+}
+
+div {
+  div.highlight {
+    margin-left: $codeBlockHorizontalMargin;
+    margin-right: $codeBlockHorizontalMargin;
+    padding-left: $codeBlockHorizontalPadding;
+    padding-right: $codeBlockHorizontalPadding;
+    padding-top: $codeBlockVerticalPadding;
+    padding-bottom: $codeBlockVerticalPadding;
+  }
+}
+
+@import
+  // "code/solarizedDark",
+  "code/solarizedLight"
+;

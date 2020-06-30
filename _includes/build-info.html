@@ -1,0 +1,9 @@
+<h1>This is a block to print building info, separated from header, footer and main block.</h1>
+<div>The present site holds the following pages:</div>
+{%- for iterate in site.pages -%}
+    <div><a href="{{ iterate.url }}">{{ iterate.path }}</a></div>
+{%- endfor -%}
+<div>and the following posts:</div>
+{%- for iterate in site.posts -%}
+    <div><a href="{{ iterate.url }}">{{ iterate.path }}</a></div>
+{%- endfor -%}
