@@ -7,3 +7,4 @@ _site/
 .vscode/
 .idea/
 .DS_Store
+Gemfile.lock

@@ -1,0 +1,17 @@
+---
+layout: page
+title: Blogs
+permalink: /blogs/
+---
+
+{% if page.title %}
+    <h1 class="page-title">{{ page.title }}</h1>
+{% endif %}
+
+{%- for iterate in site.posts -%}
+    <div class="page-display-iterate">
+        <h2><a href="{{ iterate.url | relative_url }}">{{ iterate.title }}</a></h2>
+        <div><span>{{ iterate.date }}</span> | <span>{{ iterate.tags }}</span></div>
+        <div>{{ iterate.excerpt }}</div>
+    </div>
+{%- endfor -%}

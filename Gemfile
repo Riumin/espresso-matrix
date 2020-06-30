@@ -1,6 +1,6 @@
-#source "https://rubygems.org"
-source 'https://gems.ruby-china.com'    # this is for users inside the Great Fire Wall
-gemspec
+source "https://rubygems.org"
+# source 'https://gems.ruby-china.com'    # this is for users inside the Great Fire Wall
+# gemspec
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:

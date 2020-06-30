@@ -56,7 +56,12 @@ toc:
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
 # the internal "default list".
-#
+
+exclude:
+  - src-zh.simplified
+  - src-zh.traditional
+  - src-jp
+
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
