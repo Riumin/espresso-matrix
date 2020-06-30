@@ -1,0 +1,23 @@
+@font-face { font-family: Minecraft; src: url('./Minecraft.ttf'); } 
+@font-face { font-family: Minecrafter; src: url('./Minecrafter.Reg.ttf'); } 
+@font-face { font-family: Dynalight; src: url('./Dynalight-Regular.ttf'); } 
+@font-face { font-family: zh-Maozedong; src: url('./zh-Maozedong.ttf'); } 
+
+@font-face {
+    font-family: jp-AppliMincho;
+    src: url("./jp-AppliMincho.otf") format("opentype");
+}
+
+@font-face {
+    font-family: jp-MaboroshinonijimiMincho;
+    src: url("./jp-MaboroshinonijimiMincho.otf") format("opentype");
+}
+
+@font-face { font-family: scriptin; src: url('./SCRIPTIN.ttf'); } 
+@font-face { font-family: burlingtonScript; src: url('./SFBurlingtonScript.ttf'); }
+@font-face { font-family: burlingtonScript-italic; src: url('./SFBurlingtonScript-Italic.ttf'); }
+@font-face { font-family: adineKirnbergScript; src: url('./AdineKirnberg-Script.ttf');  }
+@font-face { font-family: suwa; src: url('./Suwa.ttf');  }
+@font-face { font-family: mono-ubuntu-bold; src: url('./UbuntuMono-Bold.ttf');  }
+@font-face { font-family: Josefin-Sans; src: url('./JosefinSans-Regular.ttf');  }
+@font-face { font-family: Krona-One; src: url('./KronaOne-Regular.ttf');  }

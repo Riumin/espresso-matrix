@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="general-page">
+    <div class="path-banner">
+        <span class="fa fa-home" aria-hidden="true"> / </span>
+        {% if page.category %}
+            <span>{{ page.category | escape }} / </span>
+            <span>{{ page.title | escape }}</span>
+        {% else %}
+            <span>{{ page.title | escape }}</span>
+        {% endif %}
+    </div>
+    {{ content }}
+</div>

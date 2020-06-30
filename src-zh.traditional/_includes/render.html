@@ -1,0 +1,12 @@
+<!-- the present section is included at the end of <body> to render blocks with script -->
+
+<!-- Simple Jekyll Search from CDN -->
+<script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
+<!-- Configuration of Simple Jekyll Search -->
+<script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json'
+    })
+</script>

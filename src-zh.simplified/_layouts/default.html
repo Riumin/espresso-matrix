@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {%- include head.html -%}
+        {%- include bkgimg.html -%}
+    </head>
+    <body>
+        <header>
+            {%- include header.html -%}
+        </header>
+
+        <!-- <div class="article">
+            {%- include build-info.html -%}
+        </div> -->
+
+        {{ content }}
+        
+        <footer>
+            {%- include footer.html -%}
+        </footer>
+
+        {%- include render.html -%}
+        {%- include animation.html -%}
+    </body>
+</html>
